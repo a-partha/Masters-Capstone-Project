@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Argentina's World Cup Victory</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="title-section">
+        <h1>How Did Argentina Win the 2022 FIFA Men's World Cup?</h1>
+        <p class="subtitle"><i>By Aniruddha Parthasarathy</i></p>
+        <p class="subtitle">[Scroll to begin]</p>
+    </section>
+
+    <section id="logo-section" class="scrolly">
+        <div class="sticky-figure">
+          <svg id="logo-dot-viz"></svg>
+        </div>
+ 
+        <!-- now we’re using a unique class that no other scroller will see -->
+        <div class="logo-step"></div>
+      </section>
+      
+
+    <section class="intro-section">
+        <div class="intro-text">
+            <p>Argentina's story in the 2022 World Cup was incredible. They were one of the favorites to win the tournament, and many believed it would likely be the last opportunity for their talisman, Lionel Messi, to lift the coveted prize.</p> 
+            <p>After a surprising loss to Saudi Arabia in their opening game, they demonstrated adaptability and resilience as a team, winning all their subsequent matches to claim the World Cup trophy for the second time in their history.</p>            
+            <p>But <span class="highlight"> what does the underlying data tell us about how they actually did it?</span> Let's explore it from three angles: <i>with the ball, without the ball,</i> and <i>in-game management.</i></p>
+        </div>
+    </section>
+
+    <section class="transition-section">
+        <div class="transition-message">
+          <h1>But first, some context for the jargon...</h1>
+        </div>
+    </section>
+
+
+    <section id="formation-section">
+        <div class="formation-grid">
+            
+            <div class="formation-explanation">
+                <p><span class="highlight">This is an example of how Argentina's players lined up on average during a game. It's called the 4-2-3-1 formation. </span> The goalkeeper (shown here in yellow) isn't considered in this setup, as their position typically remains constant.</p>    
+                <p><span class="highlight">They also started with or changed to a different formation such as a 4-4-2, 4-3-3, or 3-5-2</span> depending on whether they were in possession of the ball, the opponent's formation, the game state (score), injuries, and other tactical factors.</p>
+                <p>The less possession opposition teams have, the fewer chances they have to score. It also means Argentina have more opportunities to control the ball and create scoring chances themselves. The zone highlighted in red is the <span class="highlight">High Press Zone (HPZ) — an area higher up the pitch where Argentina attempted to regain possession through various defensive actions.</span> The aim of high pressing is to win the ball back as close as possible to the opposition's goal while preventing them from progressing toward Argentina's own goal.<p>
+            </div>
+            <div id="formation-viz"></div>
+        </div>
+    </section>
+      
+    <section class="transition-section">
+        <div class="transition-message">
+          <h1><u>Argentina without the Ball</u></h1>
+            <p><i>How did their high press evolve over the course of the tournament?</i></p>
+            <p>Let's take a look at heatmaps of Argentina's pressure events data, i.e., moments recorded when an Argentinian player presses an opposition player who is receiving, carrying, or releasing the ball. The aim is to disrupt play without making a tackle or committing a foul.</p>
+            <p><span class="highlight">Hotter zones show where more pressure events occurred.</span></p>
+        </div>
+    </section>
+      
+    <!-- <div class="scroll-spacer"></div> -->
+         
+    <section id="scrolly">
+        <div class="sticky-figure">
+            <div id="pitch-viz"></div>
+        </div>
+
+        <article>
+            
+            <div class="step" data-step="0">
+                <p>In their opening game against Saudi Arabia, Argentina's pressing up front was ineffective, largely due to Messi's limited mobility. This caused their midfield third to become overwhelmed and outnumbered. In possession, Saudi Arabia played with a formation that was heavily lopsided to their right. As a result, much of Argentina's pressing occurred on that side—and closer to their own defensive third.</p>
+            </div>
+            <div class="step" data-step="1">
+                <p>Against Mexico, Argentina made a personnel change and had Messi play deeper to improve midfield stability, focusing on cutting off passing lanes in that area of the pitch.</p>
+            </div>
+            <div class="step" data-step="2">
+                <p>In the match against Poland, Argentina used an aggressive 4-3-3 formation to win possession higher up the pitch, closer to Poland's defensive third. This pressure often forced the Polish goalkeeper to clear the ball long under pressure, attempting to bypass Argentina's intensity. As a result, Poland had less possession and posed little threat when they did have the ball.</p>
+            </div>
+            <div class="step" data-step="3">
+                <p>The Round of 16 match against Australia was similar to the one against Poland, except the Australians were more passive. Argentina, on the other hand, pressed even more aggressively than they had in their previous game.</p>
+            </div>
+            <div class="step" data-step="4">
+                <p>The quarter-final against the Netherlands showcased Argentina's ability to adapt their pressing to counter a strong, possession-based opponent. They kept the central areas compact and forced the Dutch out wide, where their one-on-one play proved ineffective.</p>
+            </div>
+            <div class="step" data-step="5">
+                <p>Croatia had a strong ball-playing midfield, but knowing they posed little threat in attack, Argentina were willing to sacrifice possession in the semifinal. Instead, they picked their moments to press, capitalized on defensive errors, and transitioned quickly into attack—taking their chances well and scoring three goals.</p>
+            </div>
+            <div class="step" data-step="6">
+                <p>In the final against France, Argentina aggressively exploited their opponent's weakness by overloading the left-hand side during a dominant first half. They also improved their midfield pressing in extra time, allowing them to hold on for a draw and take the match to a penalty shoot-out.</p>
+            </div>
+        </article>
+
+    </section>
+          
+
+    <section id="pressure-chart-section" class="split-screen">
+        <div class="viz-container">
+          <img src="img/pressure_event_count.svg" alt="Argentina Pressing Chart">
+          <div class="plot-anchor"></div> 
+        </div>
+      
+        <article class="scroll-stack stack-disabled">
+          <div class="scroll-step" data-step="0">
+            <p>Argentina usually started both halves (after 0' and 45') with high intensity up front, but varied their pressing levels differently in each game.</p>
+            <p>So, <span class="highlight">they're not all-out high pressers — but when they do press, it's deliberate and controlled.</span></p>
+          </div>
+      
+          <div class="scroll-step" data-step="1">
+            <p>But applying pressure doesn't happen in isolation. It's usually followed by a tackle, interception, or some other defensive move.</p>
+          </div>
+      
+          <div class="scroll-step" data-step="2">
+            <p>When I ran the numbers, I found out that <span class="highlight">nearly 98% of Argentina's pressure was tied to just five defensive actions:</span> <i>tackles, blocks, fouls, interceptions, and 50/50s.</i></p>
+            <p><span class="highlight">Every extra one of those meant 0.3 fewer opposition passes in the HPZ before Argentina attempted to shut things down.</span> That's intentionally choking the opposition's play!</p>
+          </div>
+        </article>
+      </section>
+      
+    <section class="transition-section">
+        <div class="transition-message">
+          <h1><u>Argentina with the Ball</u></h1>
+            <p><i>How much of this pressing resulted in shots and goals?</i></p>
+            <p><i>How did they try to score in general?</i></p>
+        </div>
+    </section>  
+
+    <section id="lollipop-chart-section" class="split-screen">
+        <div class="viz-container" id="lollipop-chart"></div>
+        <div class="shot-explanation">
+            <p>Bulk of Argentina's shots were taken closer to half-time and midway through the second half.</p>
+
+            <p><i>But were they a result of high pressing?</i></p>
+            <p><span class="highlight">31.58% of the total shots (24/76) taken by Argentina happened within just 18.4 seconds from an occurrence of a high pressure event. They scored 4 goals from them; about 28.57% of their tournament total.</span> Most of those shots were taken at the beginning of the second half (45-60 min) which also happens to be the period in which the pressed the most overall in the tournament.</p>            
+            
+            <p>So, they choose their moments to press high, and <span class="highlight">if they win the ball, they often build up quickly to take a shot.</span></p>
+        </div>
+    </section>
+
+
+    <section class="transition-section">
+        <div class="transition-message">
+            <p>Apart from taking shots quickly after pressing high, Argentina's build-up play was also impressive. <span class="highlight">Build-up play refers to sequences involving controlled movement of the ball from the defensive third to the attacking third.</span></p>
+            <p>This gives an idea of how Argentina progressed the ball to get into goal scoring zones. To avoid including plays like direct long balls from defense to attack, only <span class="highlight">sequences with at least 3 passes or progressive carries</span> (carrying for at least 10 meters) were considered.</p>
+            <p>During the tournament, <span class="highlight">Argentina had a total of 74 such sequences.</span> Most came from the wide areas than through the middle — something they improved on with each game.</p>
+            <p>Now that we know how they moved the ball towards the opposition goal, <i>how can we quantify how dangerous these sequences actually were?</i> To analyze this, I used a metric called <span class="highlight">Expected Threat (xT)</span>.</p>
+        </div>
+    </section>
+
+    <section id="xt-section" class="split-screen">
+        <!-- Viz pane -->
+        <div class="viz-container xt-container" id="xt-grid"></div>
+      
+        <!-- Text pane -->
+        <div class="xt-explanation">
+            <p><span class="highlight">xT assigns a value to different zones on the pitch based on how likely ball possession in that zone leads to a goal.</span> It captures not just shots, but also the threat created by passes and carries (where a player moves the ball forward while in control).</p>
+            <p>I adapted the open-source xT model, training it only on non-Argentina matches from the 2022 World Cup. <i>Why?</i> <span class="highlight">To keep things as objective as possible. It lets us observe how dangerous Argentina’s build-up play would be if they had non-Argentinian finishers</span> — as if someone other than the likes of Lautaro Martínez or Lionel Messi were on the end of those chances.</p>
+            <p>So the grid on the left gives us a neutral baseline to measure Argentina's threat from chance creation alone, without factoring in their ability to take those chances (via shots or goals). <span class="highlight">For example, an xT value of 0.9 means that, on average, a player scored 90% of the time from that zone of the pitch.</span> Naturally, zones in the attacking third closer to the opposition goal pose a greater threat.</p>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- <div class="scroll-spacer"></div> -->
+
+    <section id="messi-influence">
+        <!-- Bottom 60%: text + table -->
+        <div class="messi-explanation">
+            <p><span class="highlight">This is a good place to address the elephant in the room: <strong>Messi.</strong></span></p>
+            <p>He did not have a fixed position. Sometimes he would play further up the pitch while other times he would drop deeper to get more involved in build-up play.</p>
+            <!-- Top 40%: Messi image -->
+            <div class="messi-image">
+                <img src="img/messi.jpg" alt="Lionel Messi">
+            </div>
+
+            <p><i>Did he really make a big difference? </i>Well, let's take a look at his influence on build‑up play.</p>
+            <p><span class="highlight">Out of those 72 build‑up sequences, Messi was involved in <strong>62</strong>!</span> To highlight just how impactful he was, here's how dangerous Argentina's build‑up play was <em>with</em> and <em>without</em> him:</p>
+                <div id="messi-table"></div>
+            <p>It means that <span class="highlight">when Messi was involved in the build‑up, Argentina's chances of scoring went up by <strong>17%</strong> on average, with their highest boost being <strong>99%</strong>! Without him, their best effort in the whole tournament increased their chance of scoring by <strong>57%</strong>.</span> So, when Messi helped move the ball forward, Argentina were far more likely to score.</p>
+            
+            <p><i>And what about his goal-scoring contribution?</i></p>
+            <p>Contrary to popular belief, <span class="highlight">Messi was just slightly more clinical than his teammates</span> — he scored 3 goals when he was expected to score 2.1 goals based on the quality of chances he created (aka xG). But the <span class="highlight">rest of the squad also finished well</span>, scoring 13 goals from chances worth 10.6 goals.</p>
+            <p>Thus, on average, Argentina scored a bit more than expected. However, <span class="highlight">they took more shots (139) and scored more non-penalty goals (16) than any other team</span> in the tournament. This suggests that <span class="highlight">volume plus clinical finishing gave them the edge over others.</span></p>
+        </div>
+    </section>
+   
+    <!-- <div class="scroll-spacer"></div> -->
+
+    <section class="transition-section">
+        <div class="transition-message">
+            <h1><u>Argentina's In-Game Management</u></h1>
+            <p><i>How did Argentina's coaching team manage to adapt during games?</i></p>
+            <p>I've only <span class="highlight">picked games where Argentina conceded at least one goal to show how they responded.</span></p>
+            <p>Each point in the line-plots below shows <span class="highlight">how often Argentina moved the ball under opposition pressure</span> per minute. This includes any action (pass, carry, etc.) performed while being pressed anywhere on the pitch.</p>
+            <p><span class="highlight">A higher value means Argentina were more comfortable evading pressure by playing through it.</span></p>
+            <p>The average is marked by the red line. Color-coded markers indicate significant events from the game and help assess its flow.</p>
+            <p>Choose between 4 opposition teams.</p>
+        </div>
+    </section>  
+
+
+    <section id="igm-section" class="split-screen">
+        <!-- <div class="tooltip"></div> -->
+        <div class="viz-container" id="line-chart"></div>
+        <div class="igm-explanation">
+            <p>After the opening game stumble, Argentina’s coaching staff <span class="highlight">used substitutions and formation changes proactively during games</span> — not just to react, but to stay ahead.</p> 
+            <p>But it didn’t always work. A switch to a 5-man defense formation after taking the lead backfired more than once. However, they <span class="highlight">always adapted</span> again, and their <span class="highlight">best control came not from loading the defense, but from staying sharp and balanced in midfield</span> with formations like 4–4–2, 4–2–3–1 and 4–3–3.</p>
+        </div>
+    </section>
+         
+    <!-- <div class="scroll-spacer"></div> -->
+
+     
+    <section class="transition-section">
+        <div class="transition-message">
+            <p>And that's basically how <span class="highlight">Argentina became world champions! 🏆</span></p>
+            <h1>The End.</h1>
+            <p>:)</p>
+        </div>
+    </section>
+
+
+  
+
+
+      
+   
+    <!-- Scripts -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://unpkg.com/intersection-observer"></script>
+    <script src="https://unpkg.com/scrollama"></script>
+    <script type="module" src="js/pitch.js"></script>
+    <script src="js/heatmap.js"></script>
+    <script src="js/pitch_context.js"></script>
+    <script src="js/scroll2.js"></script>
+    <script src="js/lollipop.js"></script>
+    <script type="module" src="js/xt_grid.js"></script>
+    <script src="js/xt_table.js"></script> 
+    <script src="js/igm.js"></script>
+    <script src="js/logo-dots.js"></script>
+  
+</body>
+</html> 
