@@ -40,8 +40,8 @@ fetch("igm_plot.json")
       .style("top",      "-1em")                 // flush to top    // shift right by your left margin
       .style("display",  "flex")
       .style("align-items", "center")
-      .style("gap",      "0.5em")
-      // .style("z-index",  10);
+      .style("gap",      "1em")
+  
 
     buttonBar.selectAll("button")
       .data(opponents)
@@ -49,7 +49,7 @@ fetch("igm_plot.json")
       .append("button")
         .text(d => d)
         .attr("class", "team-button")
-        .style('font-size', '1em')
+        .style('font-size', '0.8em')
         .style('font-family', 'Cambo, serif')
         .on("click", (event, team) => {
           update(team);
@@ -135,10 +135,10 @@ buttonBar.selectAll("button")
         .attr("class", "axis-label")
         .attr("text-anchor", "middle")
         .attr("x", width / 2)
-        .attr("y", height + margin.bottom - 50)
+        .attr("y", height + margin.bottom - 55)
         .attr("dx", "1em")    
         .style('font-family', 'Cambo, serif') 
-        .style('font-size', '0.8em')// tweak “-10” up/down as needed
+        .style('font-size', '0.8em')//
         .text("Minute");
 
       svg.append("g")
@@ -152,10 +152,10 @@ buttonBar.selectAll("button")
         .attr("text-anchor", "middle")
         .attr("transform", `rotate(-90)`)
         .attr("x", -height / 2)
-        .attr("y", -margin.left) 
+        .attr("y", -margin.left + 5) 
         .attr("dy", "1em") 
         .style('font-family', 'Cambo, serif') 
-        .style('font-size', '0.8em')         // tweak “+15” left/right as needed
+        .style('font-size', '0.8em')        
         .text("# Ball Movements");
 
       // mean line
@@ -173,7 +173,7 @@ buttonBar.selectAll("button")
       svg.append("path")
         .datum(filtered)
         .attr("fill", "none")
-        .attr("stroke", "steelblue")
+        .attr("stroke", "rgb(3, 77, 151)")
         .attr("stroke-width", 2)
      
         .attr("d", d3.line()

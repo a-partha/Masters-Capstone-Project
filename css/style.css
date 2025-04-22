@@ -11,8 +11,8 @@
 body {
     /* font-family: 'Raleway', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important; */
     font-family: "Cambo", serif;
-  font-weight: 400;
-  font-style: normal;
+    font-weight: 400;
+    font-style: normal;
     font-size: 18px;
     line-height: 1.6;
     color: #111;
@@ -71,7 +71,7 @@ body {
 
 .intro-text p {
     font-size: 1em;
-    line-height: 1.8;
+    line-height: 1.6;
     color: white;
     margin-left: 10em;
     margin-block-end: 3em;
@@ -97,13 +97,6 @@ body {
 
 .pitch-container {
     width: 100%;
-    max-width: 1000px;
-    aspect-ratio: 120/80;
-    margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
-    padding: 2rem;
-    border-radius: 12px;
 }
 
 #pitch-viz {
@@ -135,43 +128,49 @@ body {
 }
 
 #formation-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
-    padding: 20px;
-    /* background-color: #6bbefb; match theme */
+    width: 100vw;
+    /* padding: 2em; */
 }
 
 
 .formation-grid {
     display: flex;
-    width: 100%;
-    max-width: 1200px;
-    height: 80vh;
-    gap: 1.5rem;
+    /* width: 95%;
+    height: 80vh; */
+    gap: 1em;
     justify-content: center;
-    align-items: center;
-    /* align-content: start; */
+    align-items:center;
+    height: 80vh;
+  
 }
 
 #formation-viz {
-    flex: 0 0 60%;
-    aspect-ratio: 120 / 80;
-    /* background-color: rgba(255, 255, 255, 0.1); */
-    backdrop-filter: blur(10px);
-    /* padding: 1rem; */
-    /* border-radius: 12px; */
+    flex: 0 0 50%;
+    /* aspect-ratio: 120 / 80; */
 }
 
+.formation-explanation{
+  flex: 0 0 40%;
+}
 
 .formation-explanation p {
   display: block;    
   text-align: justify;
-  padding: 1rem;
+  padding: 1em;
   color: white;
-  font-size: 1.2rem;
+  font-size: 1em;
   line-height: 1.6;
+}
+
+
+#formation-viz {
+    display: flex;
+    justify-content: center;
+    height: 65vh;
+    align-items: center;
+    aspect-ratio: 3 / 2;
+    padding-right: 5em;
 }
 
 
@@ -188,8 +187,7 @@ h2{
 }
 
   
-#pitch-viz,
-#formation-viz {
+#pitch-viz {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -201,6 +199,7 @@ h2{
 
 .transition-section {
     height: 100vh;
+
     margin-top: 7em;
     padding: 7em;
     margin-bottom: 7em;
@@ -226,7 +225,7 @@ h2{
 
 .transition-message p {
     display: block;
-    justify-content: justify;
+
     font-size: 1em;
     color: white;
     text-align: justify;
@@ -260,16 +259,17 @@ article {
 .step {
     margin: 0 auto 80vh auto;
     padding: 1em;
-    /* background: rgba(127, 204, 255, 0.444); */
-    border-radius: 5px;
-    backdrop-filter: blur(25px);
+    background: rgba(70, 131, 180, 0.876);
+    border-radius: 20px;
+    /* backdrop-filter: blur(25px); */
 }
 
 .step p {
     text-align: justify;
     padding: 1em;
     font-size: 1em;
-    color: rgb(56, 108, 125);
+    /* color: rgb(56, 108, 125); */
+    color: white;
 }
 
 .step.is-active {
@@ -387,7 +387,7 @@ article {
     display: flex;
     width: 100%;        /* sits inside your body’s 5vw padding */
     height: 100vh;
-    gap: 1rem;
+    gap: 1.5em;
     box-sizing: border-box;
 
   }
@@ -400,27 +400,27 @@ article {
 
 .lollipop-viz-container {
 /* was: flex: 0 0 40%; */
-    flex: 0 1 70%;    /* ← allow shrinking */
+    flex: 0 1 50%;    /* ← allow shrinking */
 }
 
 .shot-explanation {
-    flex: 0 1 30%;
-    max-width: 60%;
+    flex: 0 1 40%;
     background-color: rgba(255,255,255,0.07);
+    
     backdrop-filter: blur(10px);
-    padding: 1rem;
+    padding: 1em;
     color: white;
-    font-size: 1.1rem;
+    font-size: 1em;
     line-height: 1.6;
     border-radius: 12px;
     text-align: justify; 
-    overflow-y: auto;    /* in case it still overflows vertically */
+    overflow-y: auto;    
 }
   
   /* make sure your D3 svg always shrinks to fit its container */
 .lollipop-viz-container svg {
-    width: 100%;
     height: auto;
+
     
 }
 
@@ -454,15 +454,14 @@ article {
   .xt-explanation {
     flex: 0 1 45%;        /* text takes 70% of the space and can shrink */
     min-width: 0;         /* allow the block to shrink appropriately */
-    background-color: rgba(255,255,255,0.07);
-    backdrop-filter: blur(10px);
+    /* background-color: rgba(255,255,255,0.07);
+    backdrop-filter: blur(10px); */
     padding: 1rem;
     color: white;
-    /* font-size: 1.1rem; */
     line-height: 1.6;
     border-radius: 12px;
     text-align: justify;
-    overflow-y: auto;     /* scroll internally if text is too tall */
+    overflow-y: auto;
   }
   
   .xt-explanation p {
@@ -492,8 +491,8 @@ article {
   height: 100%;
   object-fit:contain;          /* crop/scale to fill */
   display: block;
-  margin: 0 auto; 
-  padding-bottom: 2em; 
+  margin: auto; 
+ padding-bottom: 1.5em; 
 }
 
  
@@ -509,11 +508,12 @@ article {
 /* 1) Outer border on sides & top (you can adjust color/thickness) */
 #messi-table table {
   border-collapse: collapse;
-  margin: 0 auto;                        /* keep it centered */
+  margin: auto;   
+  margin-top: 0.1em;    
+  margin-bottom: 1em;                      
   border-style: solid solid solid solid;  /* top, right, bottom, left */
   border-width: 1.5px 1.5px 1.5px 1.5px;          /* 2px top/right/left, no bottom */
   border-color: white;
-  margin-bottom: 1em;                   /* or rgba(255,255,255,0.8) */
 }
 
 /* 2) Header background */
@@ -537,17 +537,15 @@ article {
 
 
 .messi-explanation {
-  flex: 1 1 60vh;      /* fills the rest, max 60vh */
-  /* overflow-y: auto;   */
+  flex: 1 1 60vh;
   padding: 1rem;
-  /* background-color: rgba(255,255,255,0.1); */
   backdrop-filter: blur(10px);
   border-radius: 8px;
   color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 65vw;
+  width: 75vw;
 }
 
 

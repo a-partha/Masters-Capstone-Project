@@ -27,17 +27,15 @@ d3.csv("arg_shots_summary.csv", d3.autoType).then(raw => {
 
   // — dimensions & margins
   const width  = 960;
-  const height = 620;
-  const margin = { top: 120, right: 30, bottom: 80, left: 50 };
+  const height = 720;
+  const margin = { top: 120, right: 30, bottom: 80, left: 60 };
 
   // — responsive SVG
   const svg = d3.select("#lollipop-chart")
     .append("svg")
       .attr("viewBox", `0 0 ${width} ${height}`)
       .attr("preserveAspectRatio", "xMidYMid meet");
-
  
-
   // — chart group
   const chart = svg.append("g")
     .attr("transform", `translate(${margin.left},${margin.top})`);
@@ -60,7 +58,8 @@ d3.csv("arg_shots_summary.csv", d3.autoType).then(raw => {
 
   const color = d3.scaleOrdinal()
     .domain(metrics)
-    .range([ "#2ca02c","#a6d854", "#9467bd", "#1f77b4"]);
+    // .range([ "#2ca02c","#a6d854", "#9467bd", "#1f77b4"]);
+    .range(["#910000","#004d91","#ab5c5c","#00913b"  ]);
 
   // — horizontal dashed gridlines
   chart.append("g")
@@ -83,21 +82,21 @@ d3.csv("arg_shots_summary.csv", d3.autoType).then(raw => {
 
   xAxisG.selectAll("text")
     .style("font-family", "Cambo, serif")
-    .style("font-size",   "1.2em")
+    .style("font-size",   "1.8em")
     .style("fill",        "black");
 
   // — X‑axis label
   chart.append("text")
     .attr("x", (width - margin.left - margin.right) / 2)
-    .attr("y", y(0) + 40)
+    .attr("y", y(0) + 55)
     .attr("text-anchor", "middle")
     .style("font-family", "Cambo, serif")
-    .style("font-size",   "0.8em")
+    .style("font-size",   "1.1em")
     .style("fill",        "black")
     .text("Game Time Period (min)");
 
 
-   // — Y‑axis with tick labels
+   // — Y‑axis
    const yAxisG = chart.append("g")
    .call(d3.axisLeft(y)
      .tickSize(6)
@@ -108,17 +107,17 @@ d3.csv("arg_shots_summary.csv", d3.autoType).then(raw => {
 
     yAxisG.selectAll("text")
    .style("font-family", "Cambo, serif")
-   .style("font-size",   "1.2em")
+   .style("font-size",   "1.8em")
    .style("fill",        "black");
 
  // — Y‑axis label
  svg.append("text")
  .attr("transform", "rotate(-90)")
  .attr("x", -height / 2)
- .attr("y", 18)              // tweak as needed
+ .attr("y", 15)              // tweak as needed
  .attr("text-anchor", "middle")
  .style("font-family", "Cambo, serif")
- .style("font-size",   "0.8em")
+ .style("font-size",   "1.1em")
  .style("fill",        "black")
  .text("Count");
 
@@ -148,7 +147,7 @@ d3.csv("arg_shots_summary.csv", d3.autoType).then(raw => {
       .attr("y1", y(0))
       .attr("y2", d => y(d.value))
       .attr("stroke", d => color(d.metric))
-      .attr("stroke-width", 1.5);
+      .attr("stroke-width", 3.5);
 
   // dots
   groups.selectAll("circle")
@@ -156,28 +155,73 @@ d3.csv("arg_shots_summary.csv", d3.autoType).then(raw => {
     .join("circle")
       .attr("cx", d => x1(d.metric) + x1.bandwidth()/2)
       .attr("cy", d => y(d.value))
-      .attr("r", 4)
+      .attr("r", 7)
       .attr("fill", d => color(d.metric));
 
   // — legend
   const legend = svg.append("g")
     .attr("transform", `translate(${margin.left+80}, 80)`);
 
-  const legendItems = legend.selectAll("g")
-    .data(metrics)
-    .join("g")
-      .attr("transform", (d,i) => `translate(${i*180}, 0)`);
+  // const legend_spacing = 170; 
 
-  legendItems.append("rect")
-    .attr("width", 12)
-    .attr("height", 12)
-    .attr("fill", d => color(d));
+  // const legendItems = legend.selectAll("g")
+  //   .data(metrics)
+  //   .join("g")
+  //     .attr("transform", (d,i) => `translate(${i*legend_spacing}, 0)`);
 
-  legendItems.append("text")
-    .attr("x", 18)
-    .attr("y", 10)
-    .text(d => d)
-    .style("font-family", "Cambo, serif")
-    .style("font-size",   "0.7em")
-    .style("fill",        "black");
+  // legendItems.append("rect")
+  //   .attr("x", 0)
+  //   .attr("y", -3)
+  //   .attr("width", 12)
+  //   .attr("height", 14)
+  //   .attr("fill", d => color(d));
+
+  // legendItems.append("text")
+  //   .attr("x", 20)
+  //   .attr("y", 10)
+  //   .text(d => d)
+  //   .style("font-family", "Cambo, serif")
+  //   .style("font-size",   "1.1em")
+  //   .style("fill", "black");
+  
+let xOffset = 0;
+const gap = 80;  // pixels between items
+
+const legendItems = legend.selectAll("g")
+  .data(metrics)
+  .join("g")
+    .attr("transform", function(d) {
+      const tx = xOffset;
+      // after appending, measure how wide this item will be:
+      // rect (12px) + space (4px) + textWidth + gap
+      const dummyText = legend.append("text")
+        .attr("x", -9999).attr("y", -9999)
+        .style("font","0.7em Cambo, serif")
+        .text(d);
+      const textWidth = dummyText.node().getComputedTextLength();
+      dummyText.remove();
+
+      xOffset += 12  // rect
+               + 4   // space between rect & text
+               + textWidth
+               + gap; 
+      return `translate(${tx},0)`;
+    })
+  .each(function(d,i){
+    const g = d3.select(this);
+    // append rect
+    g.append("rect")
+      .attr("width", 12)
+      .attr("height", 12)
+      .attr("fill", color(d));
+    // append text
+    g.append("text")
+      .attr("x", 18)
+      .attr("y", 10)
+      .text(d)
+      .style("font-family","Cambo, serif")
+      .style("font-size","1em")
+      .style("fill","black");
+  });
+
 });
