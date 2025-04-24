@@ -423,7 +423,7 @@
     "opponent": "Saudi Arabia",
     "minute": 70,
     "pressure": 2,
-    "event": "⏱ 70’ — Substitution\n🔄 Nicolás Alejandro Tagliafico (Left Back) → Marcos Javier Acuña (Unknown)\n🧭 Type: ❓ Unknown role\n🎯 Reason: Tactical"
+    "event": "⏱ 70’ — Substitution by Argentina\n🔄 Nicolás Alejandro Tagliafico (Left Back) → Marcos Javier Acuña (Unknown)\n🧭 Type: ❓ Unknown role\n🎯 Reason: Tactical"
   },
   {
     "opponent": "Saudi Arabia",
@@ -525,13 +525,13 @@
     "opponent": "Saudi Arabia",
     "minute": 87,
     "pressure": 2,
-    "event": "⏱ 87’ — Substitution\n🔄 Nawaf Shaker Al Abid (Center Attacking Midfield) → Abdulelah Al Amri (Left Center Back)\n🧭 Type: 🛡 Defensive sub\n🎯 Reason: Tactical"
+    "event": "⏱ 87’ — Substitution by Saudi Arabia\n🔄 Nawaf Shaker Al Abid (Center Attacking Midfield) → Abdulelah Al Amri (Left Center Back)\n🧭 Type: 🛡 Defensive sub\n🎯 Reason: Tactical"
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 88,
     "pressure": 6,
-    "event": "⏱ 88’ — Substitution\n🔄 Firas Tariq Nasser Al Albirakan (Center Forward) → Haitham Mohammed Asiri (Center Forward)\n🧭 Type: ⚔️ Attacking sub\n🎯 Reason: Tactical"
+    "event": "⏱ 88’ — Substitution by Saudi Arabia\n🔄 Firas Tariq Nasser Al Albirakan (Center Forward) → Haitham Mohammed Asiri (Center Forward)\n🧭 Type: ⚔️ Attacking sub\n🎯 Reason: Tactical"
   },
   {
     "opponent": "Saudi Arabia",
@@ -591,7 +591,7 @@
     "opponent": "Saudi Arabia",
     "minute": 98,
     "pressure": 0,
-    "event": "⏱ 98’ — Substitution\n🔄 Yasir Gharsan Al Shahrani (Left Midfield) → Mohammed Al Burayk (Unknown)\n🧭 Type: ❓ Unknown role\n🎯 Reason: Injury"
+    "event": "⏱ 98’ — Substitution by Saudi Arabia\n🔄 Yasir Gharsan Al Shahrani (Left Midfield) → Mohammed Al Burayk (Unknown)\n🧭 Type: ❓ Unknown role\n🎯 Reason: Injury"
   },
   {
     "opponent": "Saudi Arabia",
@@ -921,7 +921,7 @@
     "opponent": "Australia",
     "minute": 49,
     "pressure": 7,
-    "event": "⏱ 49’ — Substitution\n🔄 Alejandro Darío Gómez (Right Midfield) → Lisandro Martínez (Left Center Back)\n🧭 Type: 🛡 Defensive sub\n🎯 Reason: Tactical"
+    "event": "⏱ 49’ — Substitution by Argentina\n🔄 Alejandro Darío Gómez (Right Midfield) → Lisandro Martínez (Left Center Back)\n🧭 Type: 🛡 Defensive sub\n🎯 Reason: Tactical"
   },
   {
     "opponent": "Australia",
@@ -1053,7 +1053,7 @@
     "opponent": "Australia",
     "minute": 71,
     "pressure": 0,
-    "event": "⏱ 71’ — Substitution\n🔄 Miloš Degenek (Right Back) → Fran Karačić (Right Back)\n🧭 Type: 🛡 Defensive sub\n🎯 Reason: Tactical"
+    "event": "⏱ 71’ — Substitution by Australia\n🔄 Miloš Degenek (Right Back) → Fran Karačić (Right Back)\n🧭 Type: 🛡 Defensive sub\n🎯 Reason: Tactical"
   },
   {
     "opponent": "Australia",
@@ -1101,7 +1101,7 @@
     "opponent": "Australia",
     "minute": 79,
     "pressure": 1,
-    "event": "⏱ 79’ — Substitution\n🔄 Alexis Mac Allister (Left Center Midfield) → Gonzalo Ariel Montiel (Right Wing Back)\n🧭 Type: 🛡 Defensive sub\n🎯 Reason: Tactical"
+    "event": "⏱ 79’ — Substitution by Argentina\n🔄 Alexis Mac Allister (Left Center Midfield) → Gonzalo Ariel Montiel (Right Wing Back)\n🧭 Type: 🛡 Defensive sub\n🎯 Reason: Tactical"
   },
   {
     "opponent": "Australia",
@@ -1485,7 +1485,7 @@
     "opponent": "Netherlands",
     "minute": 45,
     "pressure": 5,
-    "event": "⏱ 45’ — Substitution\n🔄 Marten de Roon (Right Defensive Midfield) → Teun Koopmeiners (Right Defensive Midfield)\n🧭 Type: ⚙️ Midfield sub\n🎯 Reason: Tactical"
+    "event": "⏱ 45’ — Substitution by Netherlands\n🔄 Marten de Roon (Right Defensive Midfield) → Teun Koopmeiners (Right Defensive Midfield)\n🧭 Type: ⚙️ Midfield sub\n🎯 Reason: Tactical"
   },
   {
     "opponent": "Netherlands",
@@ -1605,7 +1605,7 @@
     "opponent": "Netherlands",
     "minute": 65,
     "pressure": 3,
-    "event": "⏱ 65’ — Substitution\n🔄 Rodrigo Javier De Paul (Right Center Midfield) → Leandro Daniel Paredes (Center Defensive Midfield)\n🧭 Type: ⚙️ Midfield sub\n🎯 Reason: Tactical"
+    "event": "⏱ 65’ — Substitution by Argentina\n🔄 Rodrigo Javier De Paul (Right Center Midfield) → Leandro Daniel Paredes (Center Defensive Midfield)\n🧭 Type: ⚙️ Midfield sub\n🎯 Reason: Tactical"
   },
   {
     "opponent": "Netherlands",
@@ -1677,7 +1677,7 @@
     "opponent": "Netherlands",
     "minute": 77,
     "pressure": 0,
-    "event": "⏱ 77’ — Substitution\n🔄 Memphis Depay (Center Attacking Midfield) → Wout Weghorst (Right Center Forward)\n🧭 Type: ⚔️ Attacking sub\n🎯 Reason: Tactical"
+    "event": "⏱ 77’ — Substitution by Netherlands\n🔄 Memphis Depay (Center Attacking Midfield) → Wout Weghorst (Right Center Forward)\n🧭 Type: ⚔️ Attacking sub\n🎯 Reason: Tactical"
   },
   {
     "opponent": "Netherlands",
@@ -1695,7 +1695,7 @@
     "opponent": "Netherlands",
     "minute": 80,
     "pressure": 0,
-    "event": "⏱ 80’ — Substitution\n🔄 Julián Álvarez (Left Center Forward) → Lautaro Javier Martínez (Left Wing)\n🧭 Type: ⚔️ Attacking sub\n🎯 Reason: Tactical"
+    "event": "⏱ 80’ — Substitution by Argentina\n🔄 Julián Álvarez (Left Center Forward) → Lautaro Javier Martínez (Left Wing)\n🧭 Type: ⚔️ Attacking sub\n🎯 Reason: Tactical"
   },
   {
     "opponent": "Netherlands",
@@ -1845,7 +1845,7 @@
     "opponent": "Netherlands",
     "minute": 105,
     "pressure": 5,
-    "event": "⏱ 105’ — Substitution\n🔄 Nahuel Molina Lucero (Right Wing Back) → Gonzalo Ariel Montiel (Right Back)\n🧭 Type: 🛡 Defensive sub\n🎯 Reason: Tactical"
+    "event": "⏱ 105’ — Substitution by Argentina\n🔄 Nahuel Molina Lucero (Right Wing Back) → Gonzalo Ariel Montiel (Right Back)\n🧭 Type: 🛡 Defensive sub\n🎯 Reason: Tactical"
   },
   {
     "opponent": "Netherlands",
@@ -1881,7 +1881,7 @@
     "opponent": "Netherlands",
     "minute": 111,
     "pressure": 0,
-    "event": "⏱ 111’ — Substitution\n🔄 Lisandro Martínez (Left Center Back) → Ángel Fabián Di María Hernández (Right Wing)\n🧭 Type: ⚔️ Attacking sub\n🎯 Reason: Tactical"
+    "event": "⏱ 111’ — Substitution by Argentina\n🔄 Lisandro Martínez (Left Center Back) → Ángel Fabián Di María Hernández (Right Wing)\n🧭 Type: ⚔️ Attacking sub\n🎯 Reason: Tactical"
   },
   {
     "opponent": "Netherlands",
@@ -2181,7 +2181,7 @@
     "opponent": "France",
     "minute": 40,
     "pressure": 2,
-    "event": "⏱ 40’ — Substitution\n🔄 Ousmane Dembélé (Right Wing) → Randal Kolo Muani (Right Wing)\n🧭 Type: ⚔️ Attacking sub\n🎯 Reason: Tactical"
+    "event": "⏱ 40’ — Substitution by France\n🔄 Ousmane Dembélé (Right Wing) → Randal Kolo Muani (Right Wing)\n🧭 Type: ⚔️ Attacking sub\n🎯 Reason: Tactical"
   },
   {
     "opponent": "France",
@@ -2319,7 +2319,7 @@
     "opponent": "France",
     "minute": 63,
     "pressure": 0,
-    "event": "⏱ 63’ — Substitution\n🔄 Ángel Fabián Di María Hernández (Left Wing) → Marcos Javier Acuña (Unknown)\n🧭 Type: ❓ Unknown role\n🎯 Reason: Tactical"
+    "event": "⏱ 63’ — Substitution by Argentina\n🔄 Ángel Fabián Di María Hernández (Left Wing) → Marcos Javier Acuña (Unknown)\n🧭 Type: ❓ Unknown role\n🎯 Reason: Tactical"
   },
   {
     "opponent": "France",
@@ -2361,7 +2361,7 @@
     "opponent": "France",
     "minute": 70,
     "pressure": 0,
-    "event": "⏱ 70’ — Substitution\n🔄 Antoine Griezmann (Center Attacking Midfield) → Kingsley Coman (Right Midfield)\n🧭 Type: ⚙️ Midfield sub\n🎯 Reason: Tactical"
+    "event": "⏱ 70’ — Substitution by France\n🔄 Antoine Griezmann (Center Attacking Midfield) → Kingsley Coman (Right Midfield)\n🧭 Type: ⚙️ Midfield sub\n🎯 Reason: Tactical"
   },
   {
     "opponent": "France",
@@ -2481,7 +2481,7 @@
     "opponent": "France",
     "minute": 90,
     "pressure": 5,
-    "event": "⏱ 90’ — Substitution\n🔄 Nahuel Molina Lucero (Right Back) → Gonzalo Ariel Montiel (Right Back)\n🧭 Type: 🛡 Defensive sub\n🎯 Reason: Tactical"
+    "event": "⏱ 90’ — Substitution by Argentina\n🔄 Nahuel Molina Lucero (Right Back) → Gonzalo Ariel Montiel (Right Back)\n🧭 Type: 🛡 Defensive sub\n🎯 Reason: Tactical"
   },
   {
     "opponent": "France",
@@ -2511,7 +2511,7 @@
     "opponent": "France",
     "minute": 95,
     "pressure": 3,
-    "event": "⏱ 95’ — Substitution\n🔄 Adrien Rabiot (Left Defensive Midfield) → Youssouf Fofana (Unknown)\n🧭 Type: ❓ Unknown role\n🎯 Reason: Tactical"
+    "event": "⏱ 95’ — Substitution by France\n🔄 Adrien Rabiot (Left Defensive Midfield) → Youssouf Fofana (Unknown)\n🧭 Type: ❓ Unknown role\n🎯 Reason: Tactical"
   },
   {
     "opponent": "France",
@@ -2547,7 +2547,7 @@
     "opponent": "France",
     "minute": 101,
     "pressure": 4,
-    "event": "⏱ 101’ — Substitution\n🔄 Julián Álvarez (Center Forward) → Lautaro Javier Martínez (Center Forward)\n🧭 Type: ⚔️ Attacking sub\n🎯 Reason: Tactical"
+    "event": "⏱ 101’ — Substitution by Argentina\n🔄 Julián Álvarez (Center Forward) → Lautaro Javier Martínez (Center Forward)\n🧭 Type: ⚔️ Attacking sub\n🎯 Reason: Tactical"
   },
   {
     "opponent": "France",
@@ -2613,7 +2613,7 @@
     "opponent": "France",
     "minute": 112,
     "pressure": 3,
-    "event": "⏱ 112’ — Substitution\n🔄 Raphaël Varane (Right Center Back) → Ibrahima Konaté (Unknown)\n🧭 Type: ❓ Unknown role\n🎯 Reason: Injury"
+    "event": "⏱ 112’ — Substitution by France\n🔄 Raphaël Varane (Right Center Back) → Ibrahima Konaté (Unknown)\n🧭 Type: ❓ Unknown role\n🎯 Reason: Injury"
   },
   {
     "opponent": "France",

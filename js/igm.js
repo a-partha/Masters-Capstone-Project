@@ -61,19 +61,20 @@ fetch("igm_plot.json")
     
 // ─── INSERT LEGEND BAR ───────────────────────────────────────────────────────
 const legendItems = [
-  { label: "Argentina Goal",  color: "green"  },
-  { label: "Opposition Goal",   color: "red"    },
-  { label: "Substitution",    color: "blue"   },
-  { label: "Formation Shift", color: "orange" },
+     { label: "Arg. Goal",              color: "green"   },
+     { label: "Opp. Goal",             color: "maroon"     },
+     { label: "Arg. Substitution",      color: "mediumblue"    },
+     { label: "Opp. Substitution",     color: "darkorange"  },
+     { label: "Formation Shift",             color: "lightgrey"  },
 ];
 
 const legend = d3.select("#igm-section .viz-container")
   .append("div")
     .attr("id", "team-legend")
     .style("position",      "absolute")
-    .style("top",           "2rem")                
+    .style("top",           "1.3em")                
     .style("display",       "flex")
-    .style("gap",           "1.5rem")
+    .style("gap",           "1em")
     .style("align-items",   "center")
     .style("pointer-events","none");          
 
@@ -194,9 +195,12 @@ buttonBar.selectAll("button")
           .attr("r", 5)
           .attr("fill", d => {
             if (d.event.includes("Goal") && d.event.includes("Argentina")) return "green";
-            if (d.event.includes("Goal") && !d.event.includes("Argentina")) return "red";
-            if (d.event.includes("Substitution")) return "blue";
-            if (d.event.includes("Formation Shift")) return "orange";
+            if (d.event.includes("Goal") && !d.event.includes("Argentina")) return "maroon";
+                if (d.event.includes("Substitution")) {
+                    const by = d.event.match(/Substitution by ([^(:\n]+)/);
+                     if (by && by[1].trim() === "Argentina") return "mediumblue";
+                     return "darkorange"                }
+            if (d.event.includes("Formation Shift")) return "lightgrey";
             return "gray";
           })
           .on("mouseover", function(event, d) {
