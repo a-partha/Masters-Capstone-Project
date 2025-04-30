@@ -25,22 +25,19 @@ d3.csv("arg_shots_summary.csv", d3.autoType).then(raw => {
     });
   });
 
-  // — dimensions & margins
   const width  = 960;
   const height = 720;
   const margin = { top: 120, right: 30, bottom: 80, left: 60 };
 
-  // — responsive SVG
   const svg = d3.select("#lollipop-chart")
     .append("svg")
       .attr("viewBox", `0 0 ${width} ${height}`)
       .attr("preserveAspectRatio", "xMidYMid meet");
  
-  // — chart group
   const chart = svg.append("g")
     .attr("transform", `translate(${margin.left},${margin.top})`);
 
-  // — scales
+  // Scales
   const x0 = d3.scaleBand()
     .domain([...new Set(tidy.map(d => d.time_bin))])
     .range([0, width - margin.left - margin.right])
@@ -58,10 +55,9 @@ d3.csv("arg_shots_summary.csv", d3.autoType).then(raw => {
 
   const color = d3.scaleOrdinal()
     .domain(metrics)
-    // .range([ "#2ca02c","#a6d854", "#9467bd", "#1f77b4"]);
-    .range(["#910000","#004d91","#ab5c5c","#00913b"  ]);
+    .range(["#910000","#004d91","#ab5c5c","#00913b"]);
 
-  // — horizontal dashed gridlines
+  // Horizontal dashed gridlines
   chart.append("g")
     .lower()
     .call(d3.axisLeft(y)
@@ -73,9 +69,8 @@ d3.csv("arg_shots_summary.csv", d3.autoType).then(raw => {
       .attr("stroke-dasharray", "100,10")
     )
     .call(g => g.select(".domain").remove());
-
  
-  // — X‑axis
+  // X‑axis
   const xAxisG = chart.append("g")
     .attr("transform", `translate(0,${y(0)})`)
     .call(d3.axisBottom(x0));
@@ -85,43 +80,43 @@ d3.csv("arg_shots_summary.csv", d3.autoType).then(raw => {
     .style("font-size",   "1.8em")
     .style("fill",        "black");
 
-  // — X‑axis label
+  // X‑axis label
   chart.append("text")
     .attr("x", (width - margin.left - margin.right) / 2)
     .attr("y", y(0) + 55)
     .attr("text-anchor", "middle")
     .style("font-family", "Cambo, serif")
-    .style("font-size",   "1.1em")
-    .style("fill",        "black")
+    .style("font-size", "1.1em")
+    .style("fill", "black")
     .text("Game Time Period (min)");
 
 
-   // — Y‑axis
+   // Y‑axis
    const yAxisG = chart.append("g")
-   .call(d3.axisLeft(y)
-     .tickSize(6)
-     .tickFormat(d3.format("~s"))
-   )
-   .call(g => g.selectAll(".tick line").attr("stroke", "black"))
-   .call(g => g.select(".domain").remove());
+    .call(d3.axisLeft(y)
+      .tickSize(6)
+      .tickFormat(d3.format("~s"))
+    )
+    .call(g => g.selectAll(".tick line").attr("stroke", "black"))
+    .call(g => g.select(".domain").remove());
 
-    yAxisG.selectAll("text")
-   .style("font-family", "Cambo, serif")
-   .style("font-size",   "1.8em")
-   .style("fill",        "black");
+  yAxisG.selectAll("text")
+    .style("font-family", "Cambo, serif")
+    .style("font-size", "1.8em")
+    .style("fill", "black");
 
- // — Y‑axis label
- svg.append("text")
- .attr("transform", "rotate(-90)")
- .attr("x", -height / 2)
- .attr("y", 15)              // tweak as needed
- .attr("text-anchor", "middle")
- .style("font-family", "Cambo, serif")
- .style("font-size",   "1.1em")
- .style("fill",        "black")
- .text("Count");
+  // Y‑axis label
+  svg.append("text")
+    .attr("transform", "rotate(-90)")
+    .attr("x", -height / 2)
+    .attr("y", 15)
+    .attr("text-anchor", "middle")
+    .style("font-family", "Cambo, serif")
+    .style("font-size", "1.1em")
+    .style("fill", "black")
+    .text("Count");
 
-  // — pivot into bins
+  // Bins
   const bins = d3.groups(tidy, d => d.time_bin)
     .map(([key, values]) => ({
       time_bin: key,
@@ -131,14 +126,14 @@ d3.csv("arg_shots_summary.csv", d3.autoType).then(raw => {
       })
     }));
 
-  // — draw lollipops
+  // Drawing the lollipops
   const groups = chart.selectAll("g.lollipop-group")
     .data(bins)
     .join("g")
       .attr("class", "lollipop-group")
       .attr("transform", d => `translate(${x0(d.time_bin)},0)`);
 
-  // sticks
+  // The sticks
   groups.selectAll("line")
     .data(d => d.values)
     .join("line")
@@ -149,7 +144,7 @@ d3.csv("arg_shots_summary.csv", d3.autoType).then(raw => {
       .attr("stroke", d => color(d.metric))
       .attr("stroke-width", 3.5);
 
-  // dots
+  // The circles
   groups.selectAll("circle")
     .data(d => d.values)
     .join("circle")
@@ -158,42 +153,19 @@ d3.csv("arg_shots_summary.csv", d3.autoType).then(raw => {
       .attr("r", 7)
       .attr("fill", d => color(d.metric));
 
-  // — legend
+  // Legend
   const legend = svg.append("g")
     .attr("transform", `translate(${margin.left+80}, 80)`);
 
-  // const legend_spacing = 170; 
-
-  // const legendItems = legend.selectAll("g")
-  //   .data(metrics)
-  //   .join("g")
-  //     .attr("transform", (d,i) => `translate(${i*legend_spacing}, 0)`);
-
-  // legendItems.append("rect")
-  //   .attr("x", 0)
-  //   .attr("y", -3)
-  //   .attr("width", 12)
-  //   .attr("height", 14)
-  //   .attr("fill", d => color(d));
-
-  // legendItems.append("text")
-  //   .attr("x", 20)
-  //   .attr("y", 10)
-  //   .text(d => d)
-  //   .style("font-family", "Cambo, serif")
-  //   .style("font-size",   "1.1em")
-  //   .style("fill", "black");
   
 let xOffset = 0;
-const gap = 80;  // pixels between items
+const gap = 80;  // space between sticks
 
 const legendItems = legend.selectAll("g")
   .data(metrics)
   .join("g")
     .attr("transform", function(d) {
-      const tx = xOffset;
-      // after appending, measure how wide this item will be:
-      // rect (12px) + space (4px) + textWidth + gap
+      const tx = xOffset; 
       const dummyText = legend.append("text")
         .attr("x", -9999).attr("y", -9999)
         .style("font","0.7em Cambo, serif")
@@ -201,20 +173,20 @@ const legendItems = legend.selectAll("g")
       const textWidth = dummyText.node().getComputedTextLength();
       dummyText.remove();
 
-      xOffset += 12  // rect
-               + 4   // space between rect & text
+      xOffset += 12  // Rectangle
+               + 4   // Space between rectangle & text
                + textWidth
                + gap; 
       return `translate(${tx},0)`;
     })
   .each(function(d,i){
     const g = d3.select(this);
-    // append rect
+    // Append rectangle
     g.append("rect")
       .attr("width", 12)
       .attr("height", 12)
       .attr("fill", color(d));
-    // append text
+    // Append text
     g.append("text")
       .attr("x", 18)
       .attr("y", 10)
@@ -223,5 +195,4 @@ const legendItems = legend.selectAll("g")
       .style("font-size","1em")
       .style("fill","black");
   });
-
 });

@@ -1,14 +1,14 @@
-// 1) Load the JSON file
 d3.json("xt_messi.json").then(tableData => {
-    // 2) Prepare it: convert 0/1 → false/true and format xT gain
+    // Converting 0/1 → false/true and formatting xT gain
     const data = tableData.map(d => ({
       "Messi's Involvement":   d.messi_involved === 1 ? "Yes" : "No",
       "Average Sequence xT Gain": d.total_xt_gain.toFixed(4)
     }));
   
-    // 3) Column headers you want
+    // Column headers
     const columns = ["Messi's Involvement", "Average Sequence xT Gain"];
-    // 4) Build the table
+
+    // Building the table
     const table = d3.select("#messi-table")
       .append("table")
         .style("border-collapse", "collapse")
@@ -19,7 +19,6 @@ d3.json("xt_messi.json").then(tableData => {
 
     table.selectAll("th, td")
         .style("padding", "0.5em 0.75em")
-        // .style("border", "1px solid rgba(0,0,0,0.1)");
         
     table.selectAll("th")
         .style("background-color", "rgba(255,255,255,0.2)")
@@ -30,7 +29,7 @@ d3.json("xt_messi.json").then(tableData => {
     table.selectAll("td")
         .style("color", "white");
   
-    // Header
+    // Table headers
     const thead = table.append("thead");
     thead.append("tr")
       .selectAll("th")
@@ -41,7 +40,7 @@ d3.json("xt_messi.json").then(tableData => {
         .style("border-bottom","1.5px solid")
         .style("text-align","center");
   
-    // Body
+    // Table body
     const tbody = table.append("tbody");
     const rows = tbody.selectAll("tr")
       .data(data)
@@ -53,9 +52,6 @@ d3.json("xt_messi.json").then(tableData => {
         .text(d => d)
         .style("padding","0.4em")
         .style("border-bottom","1.5px solid")
-        .style("text-align","center");
-
-
-        
+        .style("text-align","center");     
   })
   .catch(err => console.error("Failed to load Messi JSON:", err));

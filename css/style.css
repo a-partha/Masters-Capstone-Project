@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cambo&display=swap');
 
-/* Base styles */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -9,14 +8,13 @@
 
 
 body {
-    /* font-family: 'Raleway', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important; */
     font-family: "Cambo", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 18px;
     line-height: 1.6;
     color: #111;
-    background-color: #6CACE4;  /* Argentina sky blue */
+    background-color: #6CACE4;
     padding: 0 5vw;
 }
 
@@ -51,19 +49,14 @@ body {
     letter-spacing: 0.01em;
 }
 
-/* Intro section */
 .intro-section {
     height: 100vh;
-    /* width:600px; */
     display: flex;
     flex-direction: column;
-    /* justify-content: jus; */
     align-items: center;
-    /* padding: 200px; */
 }
 
 .intro-text {
-    /* max-width: 500px; */
     text-align: center;
 
 
@@ -81,7 +74,7 @@ body {
 }
 
 .highlight {
-  color: rgb(3, 77, 151); /* Change this to your desired color */
+  color: rgb(3, 77, 151);
   font-weight: bold;
 }
 
@@ -110,7 +103,6 @@ body {
     height: 100%;
 }
 
-/* Scrollytelling section */
 #scrolly {
     position: relative;
     padding: 1rem;
@@ -130,14 +122,11 @@ body {
 #formation-section {
     height: 100vh;
     width: 100vw;
-    /* padding: 2em; */
 }
 
 
 .formation-grid {
     display: flex;
-    /* width: 95%;
-    height: 80vh; */
     gap: 1em;
     justify-content: center;
     align-items:center;
@@ -147,7 +136,6 @@ body {
 
 #formation-viz {
     flex: 0 0 50%;
-    /* aspect-ratio: 120 / 80; */
 }
 
 .formation-explanation{
@@ -199,7 +187,6 @@ h2{
 
 .transition-section {
     height: 100vh;
-
     margin-top: 7em;
     padding: 7em;
     margin-bottom: 7em;
@@ -212,8 +199,7 @@ h2{
   align-items: center;
 
 }
-.transition-message h1 {
-   
+.transition-message h1 {   
     font-size: 2.5rem;
     font-weight: 600;
     color: white;
@@ -225,7 +211,6 @@ h2{
 
 .transition-message p {
     display: block;
-
     font-size: 1em;
     color: white;
     text-align: justify;
@@ -236,18 +221,9 @@ h2{
 
 #pitch-viz svg,
 #formation-viz svg {
-    /* width: 100%; */
     height: 80%;
 }
   
-/* .pitch-container {
-    width: 100%;
-    max-width: 1000px;
-    aspect-ratio: 120 / 80;
-    margin: 0 auto;
-  } */
-  
-
 article {
     position: relative;
     padding: 0;
@@ -261,19 +237,16 @@ article {
     padding: 1em;
     background: rgba(70, 131, 180, 0.876);
     border-radius: 20px;
-    /* backdrop-filter: blur(25px); */
 }
 
 .step p {
     text-align: justify;
     padding: 1em;
     font-size: 1em;
-    /* color: rgb(56, 108, 125); */
     color: white;
 }
 
 .step.is-active {
-    /* background: rgba(255, 255, 255, 0.2); */
     transform: scale(1.02);
     transition: all 0.3s ease;
 } 
@@ -315,9 +288,6 @@ article {
   }
   
 
-  /* .viz-container img {
-  filter: brightness(1.1) contrast(1.3) saturate(1.4);
-} */
   .explanation {
     flex: 2;
     background-color: rgba(255, 255, 255, 0.1);
@@ -376,7 +346,7 @@ article {
 
 
 .scroll-spacer {
-    height: 100vh;  /* gives room before sticky locks in */
+    height: 100vh;
     color: #cd3b58;
 }
 
@@ -385,7 +355,7 @@ article {
 
 #lollipop-chart-section {
     display: flex;
-    width: 100%;        /* sits inside your body’s 5vw padding */
+    width: 100%;
     height: 100vh;
     gap: 1.5em;
     box-sizing: border-box;
@@ -394,19 +364,17 @@ article {
   
 .lollipop-viz-container,
 .shot-explanation {
-    min-width: 0;     /* ← allow them to shrink below their content’s “natural” size */
+    min-width: 0;
 }
   
 
 .lollipop-viz-container {
-/* was: flex: 0 0 40%; */
-    flex: 0 1 50%;    /* ← allow shrinking */
+    flex: 0 1 50%; 
 }
 
 .shot-explanation {
     flex: 0 1 40%;
-    background-color: rgba(255,255,255,0.07);
-    
+    background-color: rgba(255,255,255,0.07);  
     backdrop-filter: blur(10px);
     padding: 1em;
     color: white;
@@ -417,7 +385,6 @@ article {
     overflow-y: auto;    
 }
   
-  /* make sure your D3 svg always shrinks to fit its container */
 .lollipop-viz-container svg {
     height: auto;
 
@@ -428,20 +395,19 @@ article {
     margin-bottom: 1em;
 }
 
-/* XT Section: 30% chart / 70% text split */
 #xt-section {
     display: flex;
-    width: 100%;          /* sits inside your body’s padding */
+    width: 100%;
     height: 100vh;
     gap: 1rem;
-    box-sizing: border‑box;
-    padding: 2rem;        /* match your other split‑screen padding */
+    box-sizing: border-box;
+    padding: 2rem;
     align-items: center;
   }
   
   .xt-container {
-    flex: 0 1 40%;        /* chart takes 30% of the space and can shrink */
-    min-width: 0;         /* allow the SVG to shrink to its flex size */
+    flex: 0 1 40%;        
+    min-width: 0;       
     overflow: visible;
   }
   
@@ -452,10 +418,8 @@ article {
   }
   
   .xt-explanation {
-    flex: 0 1 45%;        /* text takes 70% of the space and can shrink */
-    min-width: 0;         /* allow the block to shrink appropriately */
-    /* background-color: rgba(255,255,255,0.07);
-    backdrop-filter: blur(10px); */
+    flex: 0 1 45%;        
+    min-width: 0;  
     padding: 1rem;
     color: white;
     line-height: 1.6;
@@ -469,11 +433,10 @@ article {
     margin-bottom: 1em;
   }
 
-  /* Messi‐Influence section: vertical 40/60 split */
 #messi-influence {
     display: flex;
     flex-direction: column;
-    height: 100vh;              /* full viewport height, or change as needed */
+    height: 100vh;             
     align-items: center;
     mix-blend-mode:luminosity;  
     margin-bottom: 50%;
@@ -481,7 +444,7 @@ article {
   }
   
 .messi-image {
-  flex: 0 0 40vh;              /* 40% of the height */
+  flex: 0 0 40vh;              
   overflow: hidden;
   border-radius:130px;
 }
@@ -489,14 +452,13 @@ article {
 .messi-image img { 
   width: auto;
   height: 100%;
-  object-fit:contain;          /* crop/scale to fill */
+  object-fit:contain;          
   display: block;
   margin: auto; 
  padding-bottom: 1.5em; 
 }
 
  
-
 #messi-table, 
 #messi-table table, 
 #messi-table th, 
@@ -505,29 +467,27 @@ article {
 }
 
 
-/* 1) Outer border on sides & top (you can adjust color/thickness) */
 #messi-table table {
   border-collapse: collapse;
   margin: auto;   
   margin-top: 0.1em;    
   margin-bottom: 1em;                      
-  border-style: solid solid solid solid;  /* top, right, bottom, left */
-  border-width: 1.5px 1.5px 1.5px 1.5px;          /* 2px top/right/left, no bottom */
+  border-style: solid solid solid solid;  
+  border-width: 1.5px 1.5px 1.5px 1.5px;         
   border-color: white;
 }
 
-/* 2) Header background */
 #messi-table th {
-  background-color: rgba(3, 77, 151, 0.673);  /* pick any color & opacity */
-  color: white;                             /* ensure your text still reads */
+  background-color: rgba(3, 77, 151, 0.673);  
+  color: white;                             
 }
 
 #messi-table tr {
-  background-color: rgba(3, 77, 151, 0.478);  /* pick any color & opacity */
-  color: white;                             /* ensure your text still reads */
+  background-color: rgba(3, 77, 151, 0.478);  
+  color: white;                             
 }
 
-/* 4) Vertical separator down the middle */
+
 #messi-table th:first-child,
 #messi-table td:first-child {
   border-right: 1.5px solid white;
@@ -563,7 +523,7 @@ article {
   transition: opacity 0.2s ease;
   z-index: 999;
   max-width: 250px;            
-  white-space: normal;         /* allow text to wrap */
+  white-space: normal;         
   background: white;
   color: black;
   padding: 8px;
@@ -573,29 +533,26 @@ article {
   
 }
 
-/* 1) Full‐viewport flex container, children stretch to fill vertically */
 #igm-section.split-screen {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: stretch;       /* ← was center; now children fill height */
-    position: relative;         /* needed so absolute children (dropdown) are scoped here */
+    align-items: stretch;
+    position: relative;
     height: 100vh;
     padding: 2rem;
     box-sizing: border-box;
   }
   
-  /* 2) Left pane: chart + tooltip */
   #igm-section .viz-container {
-    flex: 7;                    /* ~70% width */
-    position: relative;         /* for tooltip + dropdown */
-    overflow: visible;          /* show axes & margins in full */
-    padding: 2rem 30px 40px 40px; /* match your D3 margins: top right bottom left */
+    flex: 7;                    
+    position: relative;         
+    overflow: visible;          
+    padding: 2rem 30px 40px 40px;
     box-sizing: border-box;
  
   }
   
-  /* 3) Force the SVG to fill that pane */
   #igm-section .viz-container svg {
     width: 100%;
     height: 100%;
@@ -604,10 +561,9 @@ article {
     overflow: visible;
   }
   
-  /* 4) Dropdown in the top‐left of the chart pane */
   #opponent-select {
-    position: absolute;        /* now inside the section */
-    top: 1rem;                 /* adjust as needed (1rem below the section’s 2rem padding) */
+    position: absolute;        
+    top: 1rem;                 
     left: 1rem;                
     z-index: 10;
     background: white;
@@ -617,7 +573,6 @@ article {
     font-size: 1rem;
   }
 
-  /* 6) Right pane: frosted‑glass explanation, 30% width */
  .igm-explanation {
     flex: 3;    
     height:fit-content;              
@@ -636,7 +591,7 @@ article {
   }
 
   #line-chart svg {
-    padding-top: 0em;  /* push the actual chart down so buttons sit in the blank space */
+    padding-top: 0em; 
   }
   
 
@@ -661,17 +616,14 @@ article {
 
 #team-legend {
   font-size: 0.7em;
-  color: black;            /* or whatever contrasts on your bg */
-}
+  color: black;
+}/*
 
 
-  /* make your new logo-step fill 100vh so Scrollama can observe it */
 #logo-section .logo-step {
     height:100vh;
   }
   
-
-  /* make the section full‐screen scrolling with one step */
 #logo-section.scrolly {
   position: relative;
 }
@@ -691,8 +643,5 @@ article {
     font-size: 0.8rem;
     color: #666;
   }
-  /* .credit-section .image-credit a {
-    color: mediumblue;
-    text-decoration: underline;
-  } */
+
   

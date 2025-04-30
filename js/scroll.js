@@ -1,84 +1,109 @@
-// Create an Intersection Observer
-const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            const step = parseInt(entry.target.dataset.step);
-            // We'll handle updates through scrollama instead
-        }
-    });
-}, {
-    threshold: 0.7  // Increased threshold so animation starts when text is more visible
-});
+let chartVisible = false;
+let stackInitialized = false; // to prevent multiple calls
 
-// Observe all step elements
-document.querySelectorAll('.step').forEach(step => {
-    observer.observe(step);
-});
-
-// Generic window resize listener event
-function handleResize() {
-    // Update dimensions and positions if needed
-    scrollerHeatmap.resize();
-    scrollerStack.resize();
+function setupScrollStack() {
+  scrollerStack.setup({
+    step: '.scroll-step',
+    offset: 0.8,
+    debug: false
+  })
+  .onStepEnter(response => {
+    d3.select(response.element).classed('is-active', true);
+  })
+  .onStepExit(response => {
+    if (response.direction === 'up') {
+      d3.select(response.element).classed('is-active', false);
+    }
+  });
 }
 
-// Initialize scrollama
+// Observe when the chart is fully visible
+const plotObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting && entry.intersectionRatio === 1 && !stackInitialized) {
+      chartVisible = true;
+      stackInitialized = true;
+
+      // Setup scroll stack only once
+      setupScrollStack();
+      document.querySelector('.scroll-stack')?.classList.remove('stack-disabled');
+      
+    }
+   
+
+  });
+}, { threshold: 1.0 });
+
+
+plotObserver.observe(document.querySelector(".plot-anchor"));
+
+
+// Initialize scrollama instances
 const scrollerHeatmap = scrollama();
 const scrollerStack = scrollama();
 
-
-// scrollama event handlers
+// Heatmap step enter handler
 function handleStepEnter(response) {
-    // response = { element, direction, index }
     d3.selectAll('.step').classed('active', false);
     d3.select(response.element).classed('active', true);
 }
 
-// Create a more aggressive resize observer
-const resizeObserver = new ResizeObserver(() => {
-    scrollerHeatmap.resize();
-    scrollerStack.resize();
-});
-
-resizeObserver.observe(document.querySelector('#scrolly'));
-
-// Initialize scrollama
+// Initialize scroll logic
 function initScroll() {
-    // Setup the instance, pass callback functions
-    scrollerHeatmap
+    // Set up heatmap scroll
+    scrollerHeatmap.setup({
+        step: '.step',
+        offset: 0.5,
+        debug: false
+    });
 
-        .setup({
-            step: '.step',
-            offset: 0.5,
-            debug: false
-        })
-        .onStepEnter(handleStepEnter);
+    scrollerHeatmap.onStepEnter(handleStepEnter);
 
-    // For scroll-stack text steps
-    console.log("scrollerStack", scrollerStack);
-    console.log("typeof scrollerStack.setup", typeof scrollerStack.setup);
-    scrollerStack
-    
-        .setup({
-            
-            step: '.scroll-step',
-            offset: 0.8,
-            debug: false
-        })
-        .on('enter', function (response) {
+    // // Set up stacked text scroll
+    // scrollerStack.setup({
+    //     step: '.scroll-step',
+    //     offset: 0.8,
+    //     debug: false
+    // });
+
+    // scrollerStack.onStepEnter(response => {
+    //     if (chartVisible && !d3.select(response.element).classed('is-active')) {
+    //         d3.select(response.element).classed('is-active', true);
+    //         d3.select(response.element).classed('visible', true);
+    //     }
+    // });
+
+    // scrollerStack.onStepExit(response => {
+    //     if (chartVisible && !d3.select(response.element).classed('is-active')) {
+    //     d3.select(response.element)
+    //         .classed('is-active', true)
+    //         .classed('visible',true);
+    //     }
+    // });
+
+
+    scrollerStack.setup({
+        step: '.scroll-step',
+        offset: 0.8,
+        debug: false
+    })
+    .onStepEnter(response => {
+        if (chartVisible) {
             d3.select(response.element).classed('is-active', true);
-            d3.select(response.element).classed('visible', true);
-        })
-        .on('exit', function (response) {
-            d3.select(response.element).classed('visible', false);
-        });
-
-        window.addEventListener('resize', () => {
-            scrollerHeatmap.resize();
-            scrollerStack.resize();
+        }
+    })
+    .onStepExit(response => {
+        if (chartVisible && response.direction === 'up') {
+            d3.select(response.element).classed('is-active', false);
+        }
+    });
+    
+    // Resize handlers
+    window.addEventListener('resize', () => {
+        scrollerHeatmap.resize();
+        scrollerStack.resize();
     });
 }
 
-// Start it up
-initScroll(); 
-
+// Start
+initScroll();

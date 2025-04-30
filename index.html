@@ -38,8 +38,7 @@
 
 
     <section id="formation-section">
-        <div class="formation-grid">
-            
+        <div class="formation-grid">      
             <div class="formation-explanation">
                 <p><span class="highlight">This is an example of how Argentina's players lined up on average during a game. It's called the 4-2-3-1 formation. </span> The goalkeeper (shown here in yellow) isn't considered in this setup, as their position typically remains constant.</p>    
                 <p><span class="highlight">They also started with or changed to a different formation such as a 4-4-2, 4-3-3, or 3-5-2</span> depending on whether they were in possession of the ball, the opponent's formation, the game state (score), injuries, and other tactical factors.</p>
@@ -147,10 +146,8 @@
     </section>
 
     <section id="xt-section" class="split-screen">
-        <!-- Viz pane -->
         <div class="viz-container xt-container" id="xt-grid"></div>
       
-        <!-- Text pane -->
         <div class="xt-explanation">
             <p><span class="highlight">xT assigns a value to different zones on the pitch based on how likely ball possession in that zone leads to a goal.</span> It captures not just shots, but also the threat created by passes and carries (where a player moves the ball forward while in control).</p>
             <p>I adapted the open-source xT model, training it only on non-Argentina matches from the 2022 World Cup. <i>Why?</i> <span class="highlight">To keep things as objective as possible. It lets us observe how dangerous Argentina’s build-up play would be if they had non-Argentinian finishers</span> — as if someone other than the likes of Lautaro Martínez or Lionel Messi were on the end of those chances.</p>
@@ -163,14 +160,11 @@
     <br>
     <br>
 
-    <!-- <div class="scroll-spacer"></div> -->
 
     <section id="messi-influence">
-        <!-- Bottom 60%: text + table -->
         <div class="messi-explanation">
             <p><span class="highlight">This is a good place to address the elephant in the room: <strong>Messi.</strong></span></p>
             <p>He did not have a fixed position. Sometimes he would play further up the pitch while other times he would drop deeper to get more involved in build-up play.</p>
-            <!-- Top 40%: Messi image -->
             <div class="messi-image">
                 <img src="img/messi.jpg" alt="Lionel Messi">
             </div>
@@ -185,7 +179,6 @@
         </div>
     </section>
    
-    <!-- <div class="scroll-spacer"></div> -->
 
    
     <section class="transition-section" id="ig">
@@ -209,8 +202,6 @@
         </div>
     </section>
          
-    <!-- <div class="scroll-spacer"></div> -->
-
      
     <section class="transition-section">
         <div class="transition-message">
@@ -227,24 +218,18 @@
       </section>
       
 
-
-
-
-    <!-- Scripts -->
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="https://unpkg.com/intersection-observer"></script>
     <script src="https://unpkg.com/scrollama"></script>
     <script type="module" src="js/pitch.js"></script>
     <script src="js/heatmap.js"></script>
     <script src="js/pitch_context.js"></script>
-    <script src="js/scroll2.js"></script>
+    <script src="js/scroll.js"></script>
     <script src="js/lollipop.js"></script>
     <script type="module" src="js/xt_grid.js"></script>
     <script src="js/xt_table.js"></script> 
     <script src="js/igm.js"></script>
     <script src="js/logo-dots.js"></script>
-
-
   
 </body>
 </html> 

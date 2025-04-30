@@ -1,10 +1,9 @@
-// Set up SVG
 const margin = { top: 10, right: 10, bottom: 10, left: 10 };
 const container = document.getElementById('pitch-viz');
 const width = container.clientWidth - margin.left - margin.right;
 const height = container.clientHeight - margin.top - margin.bottom;
 
-// Create SVG
+// Creating the SVG
 const svg = d3.select('#pitch-viz')
     .append('svg')
     .attr('width', '100%')
@@ -12,7 +11,7 @@ const svg = d3.select('#pitch-viz')
     .attr('viewBox', `0 0 120 80`)
     .append('g');
 
-// Draw pitch outline
+// Drawing the pitch outline
 svg.append('rect')
     .attr('x', 0)
     .attr('y', 0)
@@ -22,7 +21,7 @@ svg.append('rect')
     .attr('stroke', 'white')
     .attr('stroke-width', 0.3);
 
-// Center line
+// Drawing the center line
 svg.append('line')
     .attr('x1', 60)
     .attr('y1', 0)
@@ -31,7 +30,7 @@ svg.append('line')
     .attr('stroke', 'white')
     .attr('stroke-width', 0.3);
 
-// Center circle
+// Drawing the center circle
 svg.append('circle')
     .attr('cx', 60)
     .attr('cy', 40)
@@ -40,14 +39,14 @@ svg.append('circle')
     .attr('stroke', 'white')
     .attr('stroke-width', 0.3);
 
-// Center dot
+// Drawing the center dot
 svg.append('circle')
     .attr('cx', 60)
     .attr('cy', 40)
     .attr('r', 0.5)
     .attr('fill', 'white');
 
-// Left penalty box
+// Drawing the left penalty box
 svg.append('rect')
     .attr('x', 0)
     .attr('y', 18)
@@ -57,7 +56,7 @@ svg.append('rect')
     .attr('stroke', 'white')
     .attr('stroke-width', 0.3);
 
-// Right penalty box
+// Drawing the right penalty box
 svg.append('rect')
     .attr('x', 102)
     .attr('y', 18)
@@ -67,7 +66,7 @@ svg.append('rect')
     .attr('stroke', 'white')
     .attr('stroke-width', 0.3);
 
-// Left 6-yard box
+// Drawing the left 6-yard box
 svg.append('rect')
     .attr('x', 0)
     .attr('y', 30)
@@ -77,7 +76,7 @@ svg.append('rect')
     .attr('stroke', 'white')
     .attr('stroke-width', 0.3);
 
-// Right 6-yard box
+// Drawing the right 6-yard box
 svg.append('rect')
     .attr('x', 114)
     .attr('y', 30)
@@ -87,7 +86,7 @@ svg.append('rect')
     .attr('stroke', 'white')
     .attr('stroke-width', 0.3);
 
-// Goal posts - left
+// Drawing the left goal post
 svg.append('rect')
     .attr('x', 0)
     .attr('y', 36)
@@ -97,7 +96,7 @@ svg.append('rect')
     .attr('stroke', 'white')
     .attr('stroke-width', 0.3);
 
-// Goal posts - right
+// Drawing the right goal post
 svg.append('rect')
     .attr('x', 119)
     .attr('y', 36)
@@ -107,7 +106,7 @@ svg.append('rect')
     .attr('stroke', 'white')
     .attr('stroke-width', 0.3);
 
-// Penalty spots
+// Drawing the penalty spots
 svg.append('circle')
     .attr('cx', 12)
     .attr('cy', 40)
@@ -120,7 +119,7 @@ svg.append('circle')
     .attr('r', 0.5)
     .attr('fill', 'white');
 
-// Function to create arc path
+// Function to create the arc path
 function createArcPath(startAngle, endAngle) {
     return d3.arc()
         .innerRadius(9.15)
@@ -129,7 +128,7 @@ function createArcPath(startAngle, endAngle) {
         .endAngle(endAngle);
 }
 
-// Left penalty arc
+// Drawing the left penalty arc
 svg.append('path')
     .attr('d', createArcPath(0.25 * Math.PI, 0.75 * Math.PI)())
     .attr('transform', `translate(12,40)`)
@@ -137,7 +136,7 @@ svg.append('path')
     .attr('stroke', 'white')
     .attr('stroke-width', 0.3);
 
-// Right penalty arc
+// Drawing the right penalty arc
 svg.append('path')
     .attr('d', createArcPath(-0.75 * Math.PI, -0.25 * Math.PI)())
     .attr('transform', `translate(108,40)`)
@@ -145,7 +144,7 @@ svg.append('path')
     .attr('stroke', 'white')
     .attr('stroke-width', 0.3); 
 
-// Base 4-2-3-1 player positions (x, y in StatsBomb units)
+// Players in the 4-2-3-1 formation
 const formationPositions = [
     // Back 4
     { x: 15, y: 20 },
@@ -153,11 +152,11 @@ const formationPositions = [
     { x: 15, y: 45 },
     { x: 15, y: 60 },
   
-    // Double pivot
+    // Double pivot midfield
     { x: 35, y: 30 },
     { x: 35, y: 50 },
   
-    // Attacking mids / wingers
+    // Attacking midfielders / wingers
     { x: 55, y: 20 },
     { x: 55, y: 40 },
     { x: 55, y: 60 },
@@ -166,11 +165,10 @@ const formationPositions = [
     { x: 80, y: 40 },
   ];
   
-  // Create a group for formation circles
   const formationGroup = svg.append('g').attr('class', 'formation');
   
-  // Add player circles (default hidden)
-  formationGroup.selectAll('circle')
+// Adding player circles
+formationGroup.selectAll('circle')
     .data(formationPositions)
     .enter()
     .append('circle')
@@ -178,5 +176,5 @@ const formationPositions = [
     .attr('cy', d => d.y)
     .attr('r', 2)
     .attr('fill', 'white')
-    .attr('opacity', 0); // hidden until activated
+    .attr('opacity', 0);
   

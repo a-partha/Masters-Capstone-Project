@@ -1,28 +1,24 @@
-// Wait for pitch SVG to be created
 document.addEventListener('DOMContentLoaded', () => {
-    // Give the pitch.js script a moment to create the SVG
-    setTimeout(initializeHeatmap, 100);
+    setTimeout(initializeHeatmap, 100);     // Giving pitch.js a moment to create the SVG
 });
 
 function initializeHeatmap() {
-    // Match IDs for each step in chronological order
     const matchIds = [
         '3857300',  // Saudi Arabia (Group Stage)
         '3857289',  // Mexico (Group Stage)
         '3857264',  // Poland (Group Stage)
         '3869151',  // Australia (Round of 16)
-        '3869321',  // Netherlands (Quarter-final)
-        '3869519',  // Croatia (Semi-final)
+        '3869321',  // Netherlands (Quarterfinal)
+        '3869519',  // Croatia (Semifinal)
         '3869685'   // France (Final)
     ];
 
-    // Grid configuration
     const gridSize = {
-        x: 12, // Number of cells horizontally
-        y: 8,  // Number of cells vertically
+        x: 12, // Number of horizontal cells
+        y: 8,  // Number of vertical cells
     };
 
-    // Calculate cell dimensions
+    // Calculating cell dimensions
     const cellWidth = 120 / gridSize.x;
     const cellHeight = 80 / gridSize.y;
 
@@ -30,8 +26,9 @@ function initializeHeatmap() {
     const colorScale = d3.scaleSequential(d3.interpolateReds)
         .domain([0, 1]);
 
-    // Create heatmap group
     const svg = d3.select('#pitch-viz svg g');
+
+
     if (!svg.node()) {
         console.error('Pitch SVG not found');
         return;
@@ -40,7 +37,8 @@ function initializeHeatmap() {
     const heatmapGroup = svg.append('g')
         .attr('class', 'heatmap');
 
-    // Create initial grid cells
+
+    // Creating initial grid cells
     const cells = [];
     for (let y = 0; y < gridSize.y; y++) {
         for (let x = 0; x < gridSize.x; x++) {
@@ -48,7 +46,7 @@ function initializeHeatmap() {
         }
     }
 
-    // Create cells with proper data binding
+    // Data binding cells
     heatmapGroup.selectAll('.cell')
         .data(cells)
         .join('rect')
@@ -60,67 +58,64 @@ function initializeHeatmap() {
         .attr('fill', 'rgba(255, 0, 0, 0)')
         .attr('opacity', 0.5);
 
-    // Function to update the heatmap
+    // Function to update heatmap
     async function updateHeatmap(step) {
         const currentMatchId = matchIds[step];
-        if (!currentMatchId) {
-            console.error('No match ID found for step:', step);
-            return;
-        }
-    
-        try {
-            const response = await fetch(`pressure_files/pressure_match_${currentMatchId}.json`);
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
+            if (!currentMatchId) {
+                console.error('No match ID found for step:', step);
+                return;
             }
-            const data = await response.json();
     
-            // Convert flat grid to 2D array (grid[y][x])
-            const grid = Array.from({ length: gridSize.y }, () => new Array(gridSize.x).fill(0));
-            data.forEach(d => {
-                grid[d.y][d.x] = d.value;
-            });
-    
-            // Flatten and prepare for contours
-            const values = grid.flat();
-            const maxValue = d3.max(values);
-            colorScale.domain([0, maxValue]);
-    
-            // Create contours
-            const contours = d3.contours()
-                .size([gridSize.x, gridSize.y])
-                .thresholds(d3.range(0.05, 1.01, 0.06))  // tweak for smoother bands
-                (values);
-    
-            const pathGen = d3.geoPath(d3.geoIdentity()
-                .scale(cellWidth) // Scale grid to pitch units
-                .translate([0, 0]));
-    
-            // Clear previous contours
-            heatmapGroup.selectAll('path').remove();
-    
-            // Draw contours
-            heatmapGroup.selectAll('path')
-                .data(contours)
-                .enter()
-                .append('path')
-                .attr('d', pathGen)
-                .attr('fill', d => colorScale(d.value))
-                .attr('stroke', 'none')
-                .attr('opacity', 0.7);
-    
-        } catch (error) {
-            console.error('Error loading/updating heatmap:', error);
-            console.log('Failed to load data for match:', currentMatchId);
-        }
+            try {
+                const response = await fetch(`pressure_files/pressure_match_${currentMatchId}.json`);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const data = await response.json();
+        
+                // Converting flat grid to 2D array
+                const grid = Array.from({ length: gridSize.y }, () => new Array(gridSize.x).fill(0));
+                data.forEach(d => {
+                    grid[d.y][d.x] = d.value;
+                });
+        
+                // Preparing for contours
+                const values = grid.flat();
+                const maxValue = d3.max(values);
+                colorScale.domain([0, maxValue]);
+                
+                const contours = d3.contours()
+                    .size([gridSize.x, gridSize.y])
+                    .thresholds(d3.range(0.05, 1.01, 0.06))
+                    (values);
+        
+                const pathGen = d3.geoPath(d3.geoIdentity()
+                    .scale(cellWidth) // Scaling the grid to match pitch units
+                    .translate([0, 0]));
+        
+                // Clearing previous contours
+                heatmapGroup.selectAll('path').remove();
+        
+                // Drawing contours
+                heatmapGroup.selectAll('path')
+                    .data(contours)
+                    .enter()
+                    .append('path')
+                    .attr('d', pathGen)
+                    .attr('fill', d => colorScale(d.value))
+                    .attr('stroke', 'none')
+                    .attr('opacity', 0.7);
+        
+            } 
+            catch (error) {
+                console.error('Error loading/updating heatmap:', error);
+                console.log('Failed to load data for match:', currentMatchId);
+            }
     }
-    
-   
 
-    // Initialize scrollama
+    // Initializing scrollama
     const scroller = scrollama();
 
-    // Setup the instance, pass callback functions
     scroller
         .setup({
             step: '.step',
@@ -131,21 +126,20 @@ function initializeHeatmap() {
             updateHeatmap(response.index);
         })
         .onStepExit(response => {
-            // Clear the heatmap when exiting a step
+            // Clearing the heatmap while exiting a step
             heatmapGroup.selectAll('.cell')
                 .transition()
                 .duration(500)
                 .attr('fill', 'rgba(255, 0, 0, 0)');
         });
 
-    // Initial load of first step
+    // Loading first step initially
     updateHeatmap(0);
 
-    // Handle window resize
+    //Resizing
     function handleResize() {
         scroller.resize();
     }
 
-    // Listen for resize
     window.addEventListener('resize', handleResize);
 } 
