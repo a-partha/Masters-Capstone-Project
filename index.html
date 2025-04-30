@@ -234,6 +234,21 @@
     <script src="js/xt_table.js"></script> 
     <script src="js/igm.js"></script>
     <script src="js/logo-dots.js"></script>
+
+    <script>
+        window.addEventListener('load', () => {
+          const steps = document.querySelectorAll('.step');
+          let i = 0;
+          const interval = setInterval(() => {
+            if (i >= steps.length) {
+              clearInterval(interval);
+              return;
+            }
+            steps[i].scrollIntoView({ behavior: 'smooth' });
+            i++;
+          }, 1000); // Delay between scrolls 
+        });
+      </script>
   
 </body>
 </html> 
