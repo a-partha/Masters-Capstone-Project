@@ -322,27 +322,5 @@ document.addEventListener('DOMContentLoaded', () => {
         .attr('fill', (d, i) => i === 0 ? '#FFD700' : 'rgb(0, 92, 183)') // yellow for GK, dark blue for rest
         .attr('opacity', 1);
 
-    const sliders = d3.selectAll("input[type='range']");
-    const resultText = d3.select("#result");
-
-    function updateResult() {
-        let sum = 0;
-
-        sliders.each(function () {
-            const slider = d3.select(this);
-            const value = +slider.property("value");
-            const id = slider.attr("id");
-            sum += value;
-
-            // Update the corresponding counter
-            d3.select(`#${id}Counter`).text(value);
-        });
-
-        const result = Math.max(0, 10 - 0.3 * sum);
-        resultText.text(result.toFixed(2));
-    }
-
-    sliders.on("input", updateResult);
-    updateResult();
 
   });
