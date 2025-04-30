@@ -89,7 +89,7 @@ function initializeHeatmap() {
             // Create contours
             const contours = d3.contours()
                 .size([gridSize.x, gridSize.y])
-                .thresholds(d3.range(0.05, 1.01, 0.1))  // tweak for smoother bands
+                .thresholds(d3.range(0.05, 1.01, 0.06))  // tweak for smoother bands
                 (values);
     
             const pathGen = d3.geoPath(d3.geoIdentity()

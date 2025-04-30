@@ -18,7 +18,6 @@
           <svg id="logo-dot-viz"></svg>
         </div>
  
-        <!-- now we’re using a unique class that no other scroller will see -->
         <div class="logo-step"></div>
       </section>
       
@@ -27,7 +26,7 @@
         <div class="intro-text">
             <p>Argentina's story in the 2022 World Cup was incredible. They were one of the favorites to win the tournament, and many believed it would likely be the last opportunity for their talisman, Lionel Messi, to lift the coveted prize.</p> 
             <p>After a surprising loss to Saudi Arabia in their opening game, they demonstrated adaptability and resilience as a team, winning all their subsequent matches to claim the World Cup trophy for the third time in their history.</p>            
-            <p>But <span class="highlight"> what does the underlying data tell us about how they actually did it?</span> Let's explore it from three angles: <i>with the ball, without the ball,</i> and <i>in-game management.</i></p>
+            <p>But <span class="highlight"> what does the underlying data tell us about how they actually did it?</span> Let's explore it from three angles: <i><a href="#wob">without the ball</a>, <a href="#wb">with the ball</a>,</i> and <i><a href="#ig">in-game management</a>.</i></p>
         </div>
     </section>
 
@@ -50,8 +49,8 @@
         </div>
     </section>
       
-    <section class="transition-section">
-        <div class="transition-message">
+    <section class="transition-section" id="wob">
+        <div class="transition-message"  >
           <h1><u>Argentina without the Ball</u></h1>
             <p><i>How did their high press evolve over the course of the tournament?</i></p>
             <p>Let's take a look at heatmaps of Argentina's pressure events data, i.e., moments recorded when an Argentinian player presses an opposition player who is receiving, carrying, or releasing the ball. The aim is to disrupt play without making a tackle or committing a foul.</p>
@@ -117,7 +116,7 @@
         </article>
       </section>
       
-    <section class="transition-section">
+      <section class="transition-section" id="wb">
         <div class="transition-message">
           <h1><u>Argentina with the Ball</u></h1>
             <p><i>How much of this pressing resulted in shots and goals?</i></p>
@@ -188,14 +187,15 @@
    
     <!-- <div class="scroll-spacer"></div> -->
 
-    <section class="transition-section">
+   
+    <section class="transition-section" id="ig">
         <div class="transition-message">
             <h1><u>Argentina's In-Game Management</u></h1>
             <p><i>How did Argentina's coaching team manage to adapt during games?</i></p>
             <p>I've only <span class="highlight">picked games where Argentina conceded at least one goal to show how they responded.</span></p>
             <p>Each point in the line-plots below shows <span class="highlight">how often Argentina moved the ball under opposition pressure</span> per minute. This includes any action (pass, carry, etc.) performed while being pressed anywhere on the pitch.</p>
             <p><span class="highlight">A higher value means Argentina were more comfortable evading pressure by playing through it.</span></p>
-            <p>The average is marked by the red line. Color-coded markers indicate significant events from the game and help assess its flow.</p>
+            <p>Color-coded markers indicate key events from the game and help assess its flow.</p>
             <p>Choose between 4 opposition teams.</p>
         </div>
     </section>  

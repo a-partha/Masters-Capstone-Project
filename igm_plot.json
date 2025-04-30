@@ -3,2682 +3,2799 @@
     "opponent": "Saudi Arabia",
     "minute": 0,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 1,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 2,
     "pressure": 6,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 3,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 4,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 5,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 6,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 7,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 8,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 9,
     "pressure": 0,
-    "event": "⏱ 9’ — Goal\n⚽ Lionel Andrés Messi Cuccittini (Argentina)"
+    "events": [
+      "⏱ 9’ — Goal\n⚽ Lionel Andrés Messi Cuccittini (Argentina)"
+    ]
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 10,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 11,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 12,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 13,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 14,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 15,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 16,
     "pressure": 4,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 17,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 18,
     "pressure": 9,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 19,
     "pressure": 13,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 20,
     "pressure": 5,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 21,
     "pressure": 16,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 22,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 23,
     "pressure": 5,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 24,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 25,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 26,
     "pressure": 11,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 27,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 28,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 29,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 30,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 31,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 32,
     "pressure": 7,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 33,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 34,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 35,
     "pressure": 8,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 36,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 37,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 38,
     "pressure": 4,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 39,
     "pressure": 5,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 40,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 41,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 42,
     "pressure": 4,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 43,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 44,
     "pressure": 5,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 45,
     "pressure": 12,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 46,
     "pressure": 4,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 47,
     "pressure": 10,
-    "event": "⏱ 47’ — Goal\n⚽ Saleh Khalid Al Shehri (Saudi Arabia)"
+    "events": [
+      "⏱ 47’ — Substitution by Saudi Arabia\n🔄 Salman Mohammed Al Faraj (Right Center Midfield) → Nawaf Shaker Al Abid (Center Attacking Midfield)\n🧭 Type: ⚔️ Attacking sub\n🎯 Reason: Injury",
+      "⏱ 47’ — Formation Shift by Saudi Arabia:\n🧠 4141 → 4411",
+      "⏱ 47’ — Goal\n⚽ Saleh Khalid Al Shehri (Saudi Arabia)"
+    ]
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 48,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 49,
     "pressure": 15,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 50,
     "pressure": 11,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 51,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 52,
     "pressure": 2,
-    "event": "⏱ 52’ — Goal\n⚽ Salem Mohammed Al Dawsari (Saudi Arabia)"
+    "events": [
+      "⏱ 52’ — Goal\n⚽ Salem Mohammed Al Dawsari (Saudi Arabia)"
+    ]
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 53,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 54,
     "pressure": 8,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 55,
     "pressure": 10,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 56,
     "pressure": 5,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 57,
     "pressure": 4,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 58,
     "pressure": 2,
-    "event": "⏱ 58’ — Formation Shift by Argentina:\n🧠 4411 → 442"
+    "events": [
+      "⏱ 58’ — Substitution by Argentina\n🔄 Cristian Gabriel Romero (Right Center Back) → Lisandro Martínez (Left Center Back)\n🧭 Type: 🛡 Defensive sub\n🎯 Reason: Tactical",
+      "⏱ 58’ — Substitution by Argentina\n🔄 Alejandro Darío Gómez (Left Midfield) → Julián Álvarez (Left Midfield)\n🧭 Type: ⚙️ Midfield sub\n🎯 Reason: Tactical",
+      "⏱ 58’ — Substitution by Argentina\n🔄 Leandro Daniel Paredes (Left Defensive Midfield) → Enzo Fernandez (Left Defensive Midfield)\n🧭 Type: ⚙️ Midfield sub\n🎯 Reason: Tactical"
+    ]
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 59,
     "pressure": 7,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 60,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 61,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 62,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 63,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 64,
     "pressure": 4,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 65,
     "pressure": 5,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 66,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 67,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 68,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 69,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 70,
     "pressure": 2,
-    "event": "⏱ 70’ — Substitution by Argentina\n🔄 Nicolás Alejandro Tagliafico (Left Back) → Marcos Javier Acuña (Unknown)\n🧭 Type: ❓ Unknown role\n🎯 Reason: Tactical"
+    "events": [
+      "⏱ 70’ — Substitution by Argentina\n🔄 Nicolás Alejandro Tagliafico (Left Back) → Marcos Javier Acuña (Unknown)\n🧭 Type: ❓ Unknown role\n🎯 Reason: Tactical"
+    ]
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 71,
     "pressure": 5,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 72,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 73,
     "pressure": 5,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 74,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 75,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 76,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 77,
     "pressure": 1,
-    "event": "⏱ 77’ — Formation Shift by Saudi Arabia:\n🧠 442 → 4411"
+    "events": [
+      "⏱ 77’ — Substitution by Saudi Arabia\n🔄 Saleh Khalid Al Shehri (Center Forward) → Sultan Abdullah Salim Al Ghannam (Right Midfield)\n🧭 Type: ⚙️ Midfield sub\n🎯 Reason: Tactical"
+    ]
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 78,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 79,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 80,
     "pressure": 6,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 81,
     "pressure": 7,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 82,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 83,
     "pressure": 6,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 84,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 85,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 86,
     "pressure": 4,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 87,
     "pressure": 2,
-    "event": "⏱ 87’ — Substitution by Saudi Arabia\n🔄 Nawaf Shaker Al Abid (Center Attacking Midfield) → Abdulelah Al Amri (Left Center Back)\n🧭 Type: 🛡 Defensive sub\n🎯 Reason: Tactical"
+    "events": [
+      "⏱ 87’ — Substitution by Saudi Arabia\n🔄 Nawaf Shaker Al Abid (Center Attacking Midfield) → Abdulelah Al Amri (Left Center Back)\n🧭 Type: 🛡 Defensive sub\n🎯 Reason: Tactical"
+    ]
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 88,
     "pressure": 6,
-    "event": "⏱ 88’ — Substitution by Saudi Arabia\n🔄 Firas Tariq Nasser Al Albirakan (Center Forward) → Haitham Mohammed Asiri (Center Forward)\n🧭 Type: ⚔️ Attacking sub\n🎯 Reason: Tactical"
+    "events": [
+      "⏱ 88’ — Substitution by Saudi Arabia\n🔄 Firas Tariq Nasser Al Albirakan (Center Forward) → Haitham Mohammed Asiri (Center Forward)\n🧭 Type: ⚔️ Attacking sub\n🎯 Reason: Tactical"
+    ]
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 89,
     "pressure": 4,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 90,
     "pressure": 5,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 91,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 92,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 93,
     "pressure": 6,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 94,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 95,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 96,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 97,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 98,
     "pressure": 0,
-    "event": "⏱ 98’ — Substitution by Saudi Arabia\n🔄 Yasir Gharsan Al Shahrani (Left Midfield) → Mohammed Al Burayk (Unknown)\n🧭 Type: ❓ Unknown role\n🎯 Reason: Injury"
+    "events": [
+      "⏱ 98’ — Substitution by Saudi Arabia\n🔄 Yasir Gharsan Al Shahrani (Left Midfield) → Mohammed Al Burayk (Unknown)\n🧭 Type: ❓ Unknown role\n🎯 Reason: Injury"
+    ]
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 99,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 100,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 101,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 102,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Saudi Arabia",
     "minute": 103,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 0,
     "pressure": 10,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 1,
     "pressure": 5,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 2,
     "pressure": 8,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 3,
     "pressure": 4,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 4,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 5,
     "pressure": 5,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 6,
     "pressure": 9,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 7,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 8,
     "pressure": 12,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 9,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 10,
     "pressure": 13,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 11,
     "pressure": 6,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 12,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 13,
     "pressure": 4,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 14,
     "pressure": 7,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 15,
     "pressure": 5,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 16,
     "pressure": 6,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 17,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 18,
     "pressure": 11,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 19,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 20,
     "pressure": 7,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 21,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 22,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 23,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 24,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 25,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 26,
     "pressure": 5,
-    "event": "⏱ 26’ — Formation Shift by Argentina:\n🧠 433 → 442"
+    "events": [
+      "⏱ 26’ — Formation Shift by Argentina:\n🧠 433 → 442"
+    ]
   },
   {
     "opponent": "Australia",
     "minute": 27,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 28,
     "pressure": 8,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 29,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 30,
     "pressure": 10,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 31,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 32,
     "pressure": 9,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 33,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 34,
     "pressure": 3,
-    "event": "⏱ 34’ — Goal\n⚽ Lionel Andrés Messi Cuccittini (Argentina)"
+    "events": [
+      "⏱ 34’ — Goal\n⚽ Lionel Andrés Messi Cuccittini (Argentina)"
+    ]
   },
   {
     "opponent": "Australia",
     "minute": 35,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 36,
     "pressure": 6,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 37,
     "pressure": 7,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 38,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 39,
     "pressure": 11,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 40,
     "pressure": 6,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 41,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 42,
     "pressure": 5,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 43,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 44,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 45,
     "pressure": 9,
-    "event": "⏱ 45’ — Formation Shift by Australia:\n🧠 442 → 4231"
+    "events": [
+      "⏱ 45’ — Formation Shift by Australia:\n🧠 442 → 4231"
+    ]
   },
   {
     "opponent": "Australia",
     "minute": 46,
     "pressure": 14,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 47,
     "pressure": 13,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 48,
     "pressure": 8,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 49,
     "pressure": 7,
-    "event": "⏱ 49’ — Substitution by Argentina\n🔄 Alejandro Darío Gómez (Right Midfield) → Lisandro Martínez (Left Center Back)\n🧭 Type: 🛡 Defensive sub\n🎯 Reason: Tactical"
+    "events": [
+      "⏱ 49’ — Substitution by Argentina\n🔄 Alejandro Darío Gómez (Right Midfield) → Lisandro Martínez (Left Center Back)\n🧭 Type: 🛡 Defensive sub\n🎯 Reason: Tactical"
+    ]
   },
   {
     "opponent": "Australia",
     "minute": 50,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 51,
     "pressure": 9,
-    "event": "⏱ 51’ — Formation Shift by Argentina:\n🧠 4231 → 352"
+    "events": [
+      "⏱ 51’ — Formation Shift by Argentina:\n🧠 442 → 352"
+    ]
   },
   {
     "opponent": "Australia",
     "minute": 52,
     "pressure": 6,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 53,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 54,
     "pressure": 7,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 55,
     "pressure": 5,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 56,
     "pressure": 9,
-    "event": "⏱ 56’ — Goal\n⚽ Julián Álvarez (Argentina)"
+    "events": [
+      "⏱ 56’ — Goal\n⚽ Julián Álvarez (Argentina)"
+    ]
   },
   {
     "opponent": "Australia",
     "minute": 57,
     "pressure": 0,
-    "event": "⏱ 57’ — Formation Shift by Australia:\n🧠 352 → 442"
+    "events": [
+      "⏱ 57’ — Substitution by Australia\n🔄 Riley McGree (Left Wing) → Craig Goodwin (Left Midfield)\n🧭 Type: ⚙️ Midfield sub\n🎯 Reason: Tactical",
+      "⏱ 57’ — Substitution by Australia\n🔄 Keanu Baccus (Right Defensive Midfield) → Ajdin Hrustic (Right Midfield)\n🧭 Type: ⚙️ Midfield sub\n🎯 Reason: Tactical",
+      "⏱ 57’ — Formation Shift by Australia:\n🧠 4231 → 442"
+    ]
   },
   {
     "opponent": "Australia",
     "minute": 58,
     "pressure": 11,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 59,
     "pressure": 5,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 60,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 61,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 62,
     "pressure": 4,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 63,
     "pressure": 13,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 64,
     "pressure": 6,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 65,
     "pressure": 6,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 66,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 67,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 68,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 69,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 70,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 71,
     "pressure": 0,
-    "event": "⏱ 71’ — Substitution by Australia\n🔄 Miloš Degenek (Right Back) → Fran Karačić (Right Back)\n🧭 Type: 🛡 Defensive sub\n🎯 Reason: Tactical"
+    "events": [
+      "⏱ 71’ — Substitution by Argentina\n🔄 Julián Álvarez (Left Center Forward) → Lautaro Javier Martínez (Left Center Forward)\n🧭 Type: ⚔️ Attacking sub\n🎯 Reason: Tactical",
+      "⏱ 71’ — Substitution by Argentina\n🔄 Marcos Javier Acuña (Left Wing Back) → Nicolás Alejandro Tagliafico (Left Wing Back)\n🧭 Type: 🛡 Defensive sub\n🎯 Reason: Tactical",
+      "⏱ 71’ — Substitution by Australia\n🔄 Mitchell Thomas Duke (Left Center Forward) → Jamie MacLaren (Right Center Forward)\n🧭 Type: ⚔️ Attacking sub\n🎯 Reason: Tactical",
+      "⏱ 71’ — Substitution by Australia\n🔄 Mathew Leckie (Right Center Forward) → Garang Kuol (Left Center Forward)\n🧭 Type: ⚔️ Attacking sub\n🎯 Reason: Tactical",
+      "⏱ 71’ — Substitution by Australia\n🔄 Miloš Degenek (Right Back) → Fran Karačić (Right Back)\n🧭 Type: 🛡 Defensive sub\n🎯 Reason: Tactical"
+    ]
   },
   {
     "opponent": "Australia",
     "minute": 72,
     "pressure": 10,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 73,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 74,
     "pressure": 5,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 75,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 76,
     "pressure": 5,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 77,
     "pressure": 13,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 78,
     "pressure": 11,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 79,
     "pressure": 1,
-    "event": "⏱ 79’ — Substitution by Argentina\n🔄 Alexis Mac Allister (Left Center Midfield) → Gonzalo Ariel Montiel (Right Wing Back)\n🧭 Type: 🛡 Defensive sub\n🎯 Reason: Tactical"
+    "events": [
+      "⏱ 79’ — Substitution by Argentina\n🔄 Nahuel Molina Lucero (Right Wing Back) → Exequiel Alejandro Palacios (Left Center Midfield)\n🧭 Type: ⚙️ Midfield sub\n🎯 Reason: Tactical",
+      "⏱ 79’ — Substitution by Argentina\n🔄 Alexis Mac Allister (Left Center Midfield) → Gonzalo Ariel Montiel (Right Wing Back)\n🧭 Type: 🛡 Defensive sub\n🎯 Reason: Tactical"
+    ]
   },
   {
     "opponent": "Australia",
     "minute": 80,
     "pressure": 1,
-    "event": "⏱ 80’ — Formation Shift by Argentina:\n🧠 442 → 352"
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 81,
     "pressure": 6,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 82,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 83,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 84,
     "pressure": 9,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 85,
     "pressure": 5,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 86,
     "pressure": 6,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 87,
     "pressure": 8,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 88,
     "pressure": 5,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 89,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 90,
     "pressure": 6,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 91,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 92,
     "pressure": 5,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 93,
     "pressure": 9,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 94,
     "pressure": 6,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 95,
     "pressure": 5,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 96,
     "pressure": 5,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Australia",
     "minute": 97,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 0,
     "pressure": 8,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 1,
     "pressure": 8,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 2,
     "pressure": 6,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 3,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 4,
     "pressure": 4,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 5,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 6,
     "pressure": 9,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 7,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 8,
     "pressure": 4,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 9,
     "pressure": 8,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 10,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 11,
     "pressure": 10,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 12,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 13,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 14,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 15,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 16,
     "pressure": 4,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 17,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 18,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 19,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 20,
     "pressure": 4,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 21,
     "pressure": 5,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 22,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 23,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 24,
     "pressure": 4,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 25,
     "pressure": 4,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 26,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 27,
     "pressure": 5,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 28,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 29,
     "pressure": 5,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 30,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 31,
     "pressure": 6,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 32,
     "pressure": 4,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 33,
     "pressure": 9,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 34,
     "pressure": 1,
-    "event": "⏱ 34’ — Goal\n⚽ Nahuel Molina Lucero (Argentina)"
+    "events": [
+      "⏱ 34’ — Goal\n⚽ Nahuel Molina Lucero (Argentina)"
+    ]
   },
   {
     "opponent": "Netherlands",
     "minute": 35,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 36,
     "pressure": 5,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 37,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 38,
     "pressure": 6,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 39,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 40,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 41,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 42,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 43,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 44,
     "pressure": 4,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 45,
     "pressure": 5,
-    "event": "⏱ 45’ — Substitution by Netherlands\n🔄 Marten de Roon (Right Defensive Midfield) → Teun Koopmeiners (Right Defensive Midfield)\n🧭 Type: ⚙️ Midfield sub\n🎯 Reason: Tactical"
+    "events": [
+      "⏱ 45’ — Substitution by Netherlands\n🔄 Steven Bergwijn (Right Center Forward) → Steven Berghuis (Center Attacking Midfield)\n🧭 Type: ⚔️ Attacking sub\n🎯 Reason: Tactical",
+      "⏱ 45’ — Substitution by Netherlands\n🔄 Marten de Roon (Right Defensive Midfield) → Teun Koopmeiners (Right Defensive Midfield)\n🧭 Type: ⚙️ Midfield sub\n🎯 Reason: Tactical"
+    ]
   },
   {
     "opponent": "Netherlands",
     "minute": 46,
     "pressure": 12,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 47,
     "pressure": 7,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 48,
     "pressure": 8,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 49,
     "pressure": 6,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 50,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 51,
     "pressure": 8,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 52,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 53,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 54,
     "pressure": 6,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 55,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 56,
     "pressure": 5,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 57,
     "pressure": 5,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 58,
     "pressure": 6,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 59,
     "pressure": 5,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 60,
     "pressure": 13,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 61,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 62,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 63,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 64,
     "pressure": 3,
-    "event": "⏱ 64’ — Formation Shift by Netherlands:\n🧠 3412 → 4231"
+    "events": [
+      "⏱ 64’ — Substitution by Netherlands\n🔄 Daley Blind (Left Wing Back) → Luuk de Jong (Center Forward)\n🧭 Type: ⚔️ Attacking sub\n🎯 Reason: Tactical",
+      "⏱ 64’ — Formation Shift by Netherlands:\n🧠 3412 → 4231"
+    ]
   },
   {
     "opponent": "Netherlands",
     "minute": 65,
     "pressure": 3,
-    "event": "⏱ 65’ — Substitution by Argentina\n🔄 Rodrigo Javier De Paul (Right Center Midfield) → Leandro Daniel Paredes (Center Defensive Midfield)\n🧭 Type: ⚙️ Midfield sub\n🎯 Reason: Tactical"
+    "events": [
+      "⏱ 65’ — Substitution by Argentina\n🔄 Rodrigo Javier De Paul (Right Center Midfield) → Leandro Daniel Paredes (Center Defensive Midfield)\n🧭 Type: ⚙️ Midfield sub\n🎯 Reason: Tactical"
+    ]
   },
   {
     "opponent": "Netherlands",
     "minute": 66,
     "pressure": 1,
-    "event": "⏱ 66’ — Formation Shift by Argentina:\n🧠 4231 → 352"
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 67,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 68,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 69,
     "pressure": 7,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 70,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 71,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 72,
     "pressure": 0,
-    "event": "⏱ 72’ — Goal\n⚽ Lionel Andrés Messi Cuccittini (Argentina)"
+    "events": [
+      "⏱ 72’ — Goal\n⚽ Lionel Andrés Messi Cuccittini (Argentina)"
+    ]
   },
   {
     "opponent": "Netherlands",
     "minute": 73,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 74,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 75,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 76,
     "pressure": 4,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 77,
     "pressure": 0,
-    "event": "⏱ 77’ — Substitution by Netherlands\n🔄 Memphis Depay (Center Attacking Midfield) → Wout Weghorst (Right Center Forward)\n🧭 Type: ⚔️ Attacking sub\n🎯 Reason: Tactical"
+    "events": [
+      "⏱ 77’ — Substitution by Argentina\n🔄 Marcos Javier Acuña (Left Wing Back) → Nicolás Alejandro Tagliafico (Left Back)\n🧭 Type: 🛡 Defensive sub\n🎯 Reason: Tactical",
+      "⏱ 77’ — Substitution by Argentina\n🔄 Cristian Gabriel Romero (Right Center Back) → Germán Alejandro Pezzella (Right Center Back)\n🧭 Type: 🛡 Defensive sub\n🎯 Reason: Tactical",
+      "⏱ 77’ — Substitution by Netherlands\n🔄 Memphis Depay (Center Attacking Midfield) → Wout Weghorst (Right Center Forward)\n🧭 Type: ⚔️ Attacking sub\n🎯 Reason: Tactical"
+    ]
   },
   {
     "opponent": "Netherlands",
     "minute": 78,
     "pressure": 2,
-    "event": "⏱ 78’ — Formation Shift by Netherlands:\n🧠 352 → 442"
+    "events": [
+      "⏱ 78’ — Formation Shift by Netherlands:\n🧠 4231 → 442"
+    ]
   },
   {
     "opponent": "Netherlands",
     "minute": 79,
     "pressure": 4,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 80,
     "pressure": 0,
-    "event": "⏱ 80’ — Substitution by Argentina\n🔄 Julián Álvarez (Left Center Forward) → Lautaro Javier Martínez (Left Wing)\n🧭 Type: ⚔️ Attacking sub\n🎯 Reason: Tactical"
+    "events": [
+      "⏱ 80’ — Substitution by Argentina\n🔄 Julián Álvarez (Left Center Forward) → Lautaro Javier Martínez (Left Wing)\n🧭 Type: ⚔️ Attacking sub\n🎯 Reason: Tactical"
+    ]
   },
   {
     "opponent": "Netherlands",
     "minute": 81,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 82,
     "pressure": 2,
-    "event": "⏱ 82’ — Goal\n⚽ Wout Weghorst (Netherlands)"
+    "events": [
+      "⏱ 82’ — Goal\n⚽ Wout Weghorst (Netherlands)"
+    ]
   },
   {
     "opponent": "Netherlands",
     "minute": 83,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 84,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 85,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 86,
     "pressure": 4,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 87,
     "pressure": 9,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 88,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 89,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 90,
     "pressure": 8,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 91,
     "pressure": 8,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 92,
     "pressure": 5,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 93,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 94,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 95,
     "pressure": 6,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 96,
     "pressure": 5,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 97,
     "pressure": 11,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 98,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 99,
     "pressure": 11,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 100,
     "pressure": 0,
-    "event": "⏱ 100’ — Goal\n⚽ Wout Weghorst (Netherlands)"
+    "events": [
+      "⏱ 100’ — Goal\n⚽ Wout Weghorst (Netherlands)"
+    ]
   },
   {
     "opponent": "Netherlands",
     "minute": 101,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 102,
     "pressure": 16,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 103,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 104,
     "pressure": 10,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 105,
     "pressure": 5,
-    "event": "⏱ 105’ — Substitution by Argentina\n🔄 Nahuel Molina Lucero (Right Wing Back) → Gonzalo Ariel Montiel (Right Back)\n🧭 Type: 🛡 Defensive sub\n🎯 Reason: Tactical"
+    "events": [
+      "⏱ 105’ — Substitution by Argentina\n🔄 Nahuel Molina Lucero (Right Wing Back) → Gonzalo Ariel Montiel (Right Back)\n🧭 Type: 🛡 Defensive sub\n🎯 Reason: Tactical"
+    ]
   },
   {
     "opponent": "Netherlands",
     "minute": 106,
     "pressure": 6,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 107,
     "pressure": 10,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 108,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 109,
     "pressure": 6,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 110,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 111,
     "pressure": 0,
-    "event": "⏱ 111’ — Substitution by Argentina\n🔄 Lisandro Martínez (Left Center Back) → Ángel Fabián Di María Hernández (Right Wing)\n🧭 Type: ⚔️ Attacking sub\n🎯 Reason: Tactical"
+    "events": [
+      "⏱ 111’ — Substitution by Argentina\n🔄 Lisandro Martínez (Left Center Back) → Ángel Fabián Di María Hernández (Right Wing)\n🧭 Type: ⚔️ Attacking sub\n🎯 Reason: Tactical"
+    ]
   },
   {
     "opponent": "Netherlands",
     "minute": 112,
     "pressure": 2,
-    "event": "⏱ 112’ — Formation Shift by Argentina:\n🧠 442 → 433"
+    "events": [
+      "⏱ 112’ — Substitution by Netherlands\n🔄 Cody Mathès Gakpo (Left Midfield) → Noa Lang (Unknown)\n🧭 Type: ❓ Unknown role\n🎯 Reason: Tactical",
+      "⏱ 112’ — Formation Shift by Argentina:\n🧠 352 → 433"
+    ]
   },
   {
     "opponent": "Netherlands",
     "minute": 113,
     "pressure": 13,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 114,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 115,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 116,
     "pressure": 5,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 117,
     "pressure": 4,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 118,
     "pressure": 11,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 119,
     "pressure": 4,
-    "event": null
+    "events": []
   },
   {
     "opponent": "Netherlands",
     "minute": 120,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 0,
     "pressure": 7,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 1,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 2,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 3,
     "pressure": 5,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 4,
     "pressure": 5,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 5,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 6,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 7,
     "pressure": 7,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 8,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 9,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 10,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 11,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 12,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 13,
     "pressure": 5,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 14,
     "pressure": 5,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 15,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 16,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 17,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 18,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 19,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 20,
     "pressure": 8,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 21,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 22,
     "pressure": 0,
-    "event": "⏱ 22’ — Goal\n⚽ Lionel Andrés Messi Cuccittini (Argentina)"
+    "events": [
+      "⏱ 22’ — Goal\n⚽ Lionel Andrés Messi Cuccittini (Argentina)"
+    ]
   },
   {
     "opponent": "France",
     "minute": 23,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 24,
     "pressure": 4,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 25,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 26,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 27,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 28,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 29,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 30,
     "pressure": 9,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 31,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 32,
     "pressure": 7,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 33,
     "pressure": 5,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 34,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 35,
     "pressure": 1,
-    "event": "⏱ 35’ — Goal\n⚽ Ángel Fabián Di María Hernández (Argentina)"
+    "events": [
+      "⏱ 35’ — Goal\n⚽ Ángel Fabián Di María Hernández (Argentina)"
+    ]
   },
   {
     "opponent": "France",
     "minute": 36,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 37,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 38,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 39,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 40,
     "pressure": 2,
-    "event": "⏱ 40’ — Substitution by France\n🔄 Ousmane Dembélé (Right Wing) → Randal Kolo Muani (Right Wing)\n🧭 Type: ⚔️ Attacking sub\n🎯 Reason: Tactical"
+    "events": [
+      "⏱ 40’ — Substitution by France\n🔄 Ousmane Dembélé (Right Wing) → Randal Kolo Muani (Right Wing)\n🧭 Type: ⚔️ Attacking sub\n🎯 Reason: Tactical"
+    ]
   },
   {
     "opponent": "France",
     "minute": 41,
     "pressure": 3,
-    "event": "⏱ 41’ — Formation Shift by France:\n🧠 433 → 4231"
+    "events": [
+      "⏱ 41’ — Substitution by France\n🔄 Olivier Giroud (Center Forward) → Marcus Thuram (Left Wing)\n🧭 Type: ⚔️ Attacking sub\n🎯 Reason: Tactical"
+    ]
   },
   {
     "opponent": "France",
     "minute": 42,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 43,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 44,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 45,
     "pressure": 6,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 46,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 47,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 48,
     "pressure": 15,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 49,
     "pressure": 7,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 50,
     "pressure": 8,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 51,
     "pressure": 6,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 52,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 53,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 54,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 55,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 56,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 57,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 58,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 59,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 60,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 61,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 62,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 63,
     "pressure": 0,
-    "event": "⏱ 63’ — Substitution by Argentina\n🔄 Ángel Fabián Di María Hernández (Left Wing) → Marcos Javier Acuña (Unknown)\n🧭 Type: ❓ Unknown role\n🎯 Reason: Tactical"
+    "events": [
+      "⏱ 63’ — Substitution by Argentina\n🔄 Ángel Fabián Di María Hernández (Left Wing) → Marcos Javier Acuña (Unknown)\n🧭 Type: ❓ Unknown role\n🎯 Reason: Tactical"
+    ]
   },
   {
     "opponent": "France",
     "minute": 64,
     "pressure": 5,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 65,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 66,
     "pressure": 7,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 67,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 68,
     "pressure": 7,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 69,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 70,
     "pressure": 0,
-    "event": "⏱ 70’ — Substitution by France\n🔄 Antoine Griezmann (Center Attacking Midfield) → Kingsley Coman (Right Midfield)\n🧭 Type: ⚙️ Midfield sub\n🎯 Reason: Tactical"
+    "events": [
+      "⏱ 70’ — Substitution by France\n🔄 Theo Bernard François Hernández (Left Back) → Eduardo Camavinga (Left Back)\n🧭 Type: 🛡 Defensive sub\n🎯 Reason: Tactical",
+      "⏱ 70’ — Substitution by France\n🔄 Antoine Griezmann (Center Attacking Midfield) → Kingsley Coman (Right Midfield)\n🧭 Type: ⚙️ Midfield sub\n🎯 Reason: Tactical"
+    ]
   },
   {
     "opponent": "France",
     "minute": 71,
     "pressure": 6,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 72,
     "pressure": 2,
-    "event": "⏱ 72’ — Formation Shift by France:\n🧠 4231 → 442"
+    "events": [
+      "⏱ 72’ — Formation Shift by France:\n🧠 4231 → 442"
+    ]
   },
   {
     "opponent": "France",
     "minute": 73,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 74,
     "pressure": 4,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 75,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 76,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 77,
     "pressure": 9,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 78,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 79,
     "pressure": 3,
-    "event": "⏱ 79’ — Goal\n⚽ Kylian Mbappé Lottin (France)"
+    "events": [
+      "⏱ 79’ — Goal\n⚽ Kylian Mbappé Lottin (France)"
+    ]
   },
   {
     "opponent": "France",
     "minute": 80,
     "pressure": 4,
-    "event": "⏱ 80’ — Goal\n⚽ Kylian Mbappé Lottin (France)"
+    "events": [
+      "⏱ 80’ — Goal\n⚽ Kylian Mbappé Lottin (France)"
+    ]
   },
   {
     "opponent": "France",
     "minute": 81,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 82,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 83,
     "pressure": 10,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 84,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 85,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 86,
     "pressure": 4,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 87,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 88,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 89,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 90,
     "pressure": 5,
-    "event": "⏱ 90’ — Substitution by Argentina\n🔄 Nahuel Molina Lucero (Right Back) → Gonzalo Ariel Montiel (Right Back)\n🧭 Type: 🛡 Defensive sub\n🎯 Reason: Tactical"
+    "events": [
+      "⏱ 90’ — Substitution by Argentina\n🔄 Nahuel Molina Lucero (Right Back) → Gonzalo Ariel Montiel (Right Back)\n🧭 Type: 🛡 Defensive sub\n🎯 Reason: Tactical"
+    ]
   },
   {
     "opponent": "France",
     "minute": 91,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 92,
     "pressure": 8,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 93,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 94,
     "pressure": 12,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 95,
     "pressure": 3,
-    "event": "⏱ 95’ — Substitution by France\n🔄 Adrien Rabiot (Left Defensive Midfield) → Youssouf Fofana (Unknown)\n🧭 Type: ❓ Unknown role\n🎯 Reason: Tactical"
+    "events": [
+      "⏱ 95’ — Substitution by France\n🔄 Adrien Rabiot (Left Defensive Midfield) → Youssouf Fofana (Unknown)\n🧭 Type: ❓ Unknown role\n🎯 Reason: Tactical"
+    ]
   },
   {
     "opponent": "France",
     "minute": 96,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 97,
     "pressure": 3,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 98,
     "pressure": 10,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 99,
     "pressure": 5,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 100,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 101,
     "pressure": 4,
-    "event": "⏱ 101’ — Substitution by Argentina\n🔄 Julián Álvarez (Center Forward) → Lautaro Javier Martínez (Center Forward)\n🧭 Type: ⚔️ Attacking sub\n🎯 Reason: Tactical"
+    "events": [
+      "⏱ 101’ — Substitution by Argentina\n🔄 Rodrigo Javier De Paul (Right Center Midfield) → Leandro Daniel Paredes (Center Defensive Midfield)\n🧭 Type: ⚙️ Midfield sub\n🎯 Reason: Tactical",
+      "⏱ 101’ — Substitution by Argentina\n🔄 Julián Álvarez (Center Forward) → Lautaro Javier Martínez (Center Forward)\n🧭 Type: ⚔️ Attacking sub\n🎯 Reason: Tactical"
+    ]
   },
   {
     "opponent": "France",
     "minute": 102,
     "pressure": 0,
-    "event": "⏱ 102’ — Formation Shift by Argentina:\n🧠 442 → 433"
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 103,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 104,
     "pressure": 7,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 105,
     "pressure": 5,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 106,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 107,
     "pressure": 0,
-    "event": "⏱ 107’ — Goal\n⚽ Lionel Andrés Messi Cuccittini (Argentina)"
+    "events": [
+      "⏱ 107’ — Goal\n⚽ Lionel Andrés Messi Cuccittini (Argentina)"
+    ]
   },
   {
     "opponent": "France",
     "minute": 108,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 109,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 110,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 111,
     "pressure": 4,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 112,
     "pressure": 3,
-    "event": "⏱ 112’ — Substitution by France\n🔄 Raphaël Varane (Right Center Back) → Ibrahima Konaté (Unknown)\n🧭 Type: ❓ Unknown role\n🎯 Reason: Injury"
+    "events": [
+      "⏱ 112’ — Substitution by France\n🔄 Raphaël Varane (Right Center Back) → Ibrahima Konaté (Unknown)\n🧭 Type: ❓ Unknown role\n🎯 Reason: Injury"
+    ]
   },
   {
     "opponent": "France",
     "minute": 113,
     "pressure": 4,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 114,
     "pressure": 1,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 115,
     "pressure": 1,
-    "event": "⏱ 115’ — Formation Shift by Argentina:\n🧠 433 → 352"
+    "events": [
+      "⏱ 115’ — Substitution by Argentina\n🔄 Alexis Mac Allister (Left Center Midfield) → Germán Alejandro Pezzella (Center Back)\n🧭 Type: 🛡 Defensive sub\n🎯 Reason: Tactical",
+      "⏱ 115’ — Formation Shift by Argentina:\n🧠 433 → 352"
+    ]
   },
   {
     "opponent": "France",
     "minute": 116,
     "pressure": 0,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 117,
     "pressure": 0,
-    "event": "⏱ 117’ — Goal\n⚽ Kylian Mbappé Lottin (France)"
+    "events": [
+      "⏱ 117’ — Goal\n⚽ Kylian Mbappé Lottin (France)"
+    ]
   },
   {
     "opponent": "France",
     "minute": 118,
     "pressure": 8,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 119,
     "pressure": 2,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 120,
     "pressure": 0,
-    "event": "⏱ 120’ — Goal\n⚽ Kylian Mbappé Lottin (France)"
+    "events": [
+      "⏱ 120’ — Substitution by France\n🔄 Jules Koundé (Right Back) → Axel Disasi (Unknown)\n🧭 Type: ❓ Unknown role\n🎯 Reason: Tactical",
+      "⏱ 120’ — Substitution by Argentina\n🔄 Nicolás Alejandro Tagliafico (Left Wing Back) → Paulo Bruno Exequiel Dybala (Left Center Midfield)\n🧭 Type: ⚙️ Midfield sub\n🎯 Reason: Tactical",
+      "⏱ 120’ — Goal\n⚽ Kylian Mbappé Lottin (France)"
+    ]
   },
   {
     "opponent": "France",
     "minute": 121,
     "pressure": 15,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 122,
     "pressure": 4,
-    "event": null
+    "events": []
   },
   {
     "opponent": "France",
     "minute": 123,
     "pressure": 2,
-    "event": null
+    "events": []
   }
 ]
