@@ -617,7 +617,7 @@ article {
 #team-legend {
   font-size: 0.7em;
   color: black;
-}/*
+}
 
 
 #logo-section .logo-step {
@@ -628,20 +628,19 @@ article {
   position: relative;
 }
 
-
 #logo-dot-viz {
-    width: 100%;
-    height: 100%;
-    shape-rendering:crispEdges;
-  }
+  width: 100%;
+  height: 100%;
+  shape-rendering:crispEdges;
+}
 
-  .credit-section {
-    padding: 0.5rem 1rem;
-    text-align: center;
-  }
-  .credit-section .image-credit {
-    font-size: 0.8rem;
-    color: #666;
-  }
+.credit-section {
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
+.credit-section .image-credit {
+  font-size: 0.8rem;
+  color: #666;
+}
 
   
